@@ -18,6 +18,7 @@
                 "bus": [
                 ],
                 "type": "soft",
+                "maturity": "Implemented",
                 "width": "0",
                 "height": "0",
                 "supply_voltage": [
@@ -4622,6 +4623,7 @@
                 "type": "soft",
                 "width": "0",
                 "height": "0",
+                "maturity": "Implemented",
                 "supply_voltage": [
                     "n/a"
                 ],
