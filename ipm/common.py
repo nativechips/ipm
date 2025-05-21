@@ -40,11 +40,10 @@ from .version_check import check_for_updates
 # import bus_wrapper_gen
 
 VERIFIED_JSON_FILE_URL = (
-    "https://raw.githubusercontent.com/efabless/ipm/main/verified_IPs.json"
+    "https://raw.githubusercontent.com/chipfoundry/ipm-platform/refs/heads/main/verified_IPs.json"
 )
 DEPENDENCIES_FILE_NAME = "dependencies.json"
 IPM_DEFAULT_HOME = os.path.join(os.path.expanduser("~"), ".ipm")
-PLATFORM_IP_URL = "https://platform.efabless.com/design_catalog/ip_block"
 
 
 def opt_ipm_root(function: Callable):
@@ -1255,41 +1254,23 @@ def list_verified_ips(category=None, technology=None):
     """
     verified_ips = IPInfo.get_verified_ip_info()
     ip_list = []
-    response = requests.get(PLATFORM_IP_URL)
     logger = Logger()
     check_for_updates(logger)
-    # Check if the request was successful
-    if response.status_code == 200:
-        # Parse the HTML content of the webpage
-        soup = BeautifulSoup(response.content, "html.parser")
-        platform_ips = []
-        links = soup.find_all("a")
-        for link in links:
-            href = link.get("href")
-            if "/design_catalog/ip_block/" in href:
-                text = link.text
-                if "View Details" not in text and "\n\n" not in text:
-                    platform_ips.append(text.upper())
 
     for ip_name, ip_data in verified_ips.items():
-        if ip_name.upper() in platform_ips:
-            if category and not technology:
-                if ip_data["category"] == category:
-                    ip_list.append({ip_name: ip_data})
-            elif technology and not category:
-                if (
-                    ip_data["technology"] == technology
-                    or ip_data["technology"] == "n/a"
-                ):
-                    ip_list.append({ip_name: ip_data})
-            elif technology and category:
-                if ip_data["category"] == category and (
-                    ip_data["technology"] == technology
-                    or ip_data["technology"] == "n/a"
-                ):
-                    ip_list.append({ip_name: ip_data})
-            else:
+        if category and not technology:
+            if ip_data["category"] == category:
                 ip_list.append({ip_name: ip_data})
+        elif technology and not category:
+            if ip_data["technology"] == technology or ip_data["technology"] == "n/a":
+                ip_list.append({ip_name: ip_data})
+        elif technology and category:
+            if ip_data["category"] == category and (
+                ip_data["technology"] == technology or ip_data["technology"] == "n/a"
+            ):
+                ip_list.append({ip_name: ip_data})
+        else:
+            ip_list.append({ip_name: ip_data})
 
     IP.create_table(ip_list)
 
