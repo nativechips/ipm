@@ -21,6 +21,7 @@
                 "maturity": "Implemented",
                 "width": "0",
                 "height": "0",
+                "clock_freq_mhz": "0",
                 "supply_voltage": [
                     "n/a"
                 ],
@@ -4623,6 +4624,7 @@
                 "type": "soft",
                 "width": "0",
                 "height": "0",
+                "clock_freq_mhz": "n/a",
                 "maturity": "Implemented",
                 "supply_voltage": [
                     "n/a"
