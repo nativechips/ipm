@@ -1,40 +1,9 @@
 {
-    "IP_Utilities": {
-        "description": "A set of utilities that can be used to develop digital IPs in Verilog HDL",
-        "repo": "github.com/chipfoundry/IP_Utilities",
-        "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
-        "owner": "Efabless Corp.",
-        "category": "digital",
-        "technology": "n/a",
-        "license": "Apache 2.0",
-        "tags": [
-            "fifo",
-            "clock mux"
-        ],
-        "release": {
-            "v1.0.0": {
-                "date": "30-09-2024",
-                "bus": [
-                ],
-                "type": "soft",
-                "maturity": "Implemented",
-                "width": "0",
-                "height": "0",
-                "clock_freq_mhz": "0",
-                "supply_voltage": [
-                    "n/a"
-                ],
-                "draft": false,
-                "sha256": "c0ae31fb4252e40d4237623558d70e0fee1239e1c29f1e2ff906f1763f2aa690"
-            }
-        }
-    },
     "EF_PSRAM_CTRL": {
         "description": "A Controller for Quad I/O SPI PSRAM",
-        "repo": "github.com/chipfoundry/EF_PSRAM_CTRL",
+        "repo": "github.com/efabless/EF_PSRAM_CTRL",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -66,9 +35,9 @@
     },
     "EF_PSRAM_CTRL_V2": {
         "description": "A Controller for Quad I/O SPI PSRAM",
-        "repo": "github.com/chipfoundry/EF_PSRAM_CTRL_V2",
+        "repo": "github.com/efabless/EF_PSRAM_CTRL_V2",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -239,9 +208,9 @@
     },
     "EF_UART": {
         "description": "UART with a programmable baud rate generator and RX/TX FIFOs",
-        "repo": "github.com/chipfoundry/EF_UART",
+        "repo": "github.com/efabless/EF_UART",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -426,14 +395,14 @@
                 "maturity": "verified",
                 "bus": [
                     "generic"
-                    ],
+                ],
                 "type": "soft",
                 "width": "0.0",
                 "height": "0.0",
                 "cell_count": "1590",
                 "clock_freq_mhz": "277",
                 "supply_voltage": [
-                "n/a"
+                    "n/a"
                 ],
                 "draft": false,
                 "sha256": "5aa0372ffd22f5367ab4bc8be1095f5797af725eae147724390811ecdfc65a85"
@@ -443,14 +412,14 @@
                 "maturity": "verified",
                 "bus": [
                     "generic"
-                    ],
+                ],
                 "type": "soft",
                 "width": "0.0",
                 "height": "0.0",
                 "cell_count": "1590",
                 "clock_freq_mhz": "277",
                 "supply_voltage": [
-                "n/a"
+                    "n/a"
                 ],
                 "draft": false,
                 "sha256": "7ad01219548c1b0ca70cd83d023f81e9d3cfd4e43ca4c219e3672bc7939f56d8"
@@ -459,9 +428,9 @@
     },
     "EF_PWM32": {
         "description": "A 32-bit dual channel PWM generator with a clock divider.",
-        "repo": "github.com/chipfoundry/EF_PWM32",
+        "repo": "github.com/efabless/EF_PWM32",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -493,9 +462,9 @@
     },
     "EF_TCC32": {
         "description": "A 32-bit Timer/Counter/Capture peripheral.",
-        "repo": "github.com/chipfoundry/EF_TCC32",
+        "repo": "github.com/efabless/EF_TCC32",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -545,9 +514,9 @@
     },
     "MS_CLK_RST": {
         "description": "All digital Clock and Reset Manager.",
-        "repo": "github.com/chipfoundry/MS_CLK_RST",
+        "repo": "github.com/efabless/MS_CLK_RST",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "sky130A",
@@ -597,9 +566,9 @@
     },
     "EF_GPIO8": {
         "description": "A generic GPIO peripheral.",
-        "repo": "github.com/chipfoundry/EF_GPIO8",
+        "repo": "github.com/efabless/EF_GPIO8",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -834,9 +803,9 @@
     },
     "EF_GPIO": {
         "description": "A generic GPIO peripheral.",
-        "repo": "github.com/chipfoundry/EF_GPIO",
+        "repo": "github.com/efabless/EF_GPIO",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -884,9 +853,9 @@
     },
     "MS_SPI_XIP_CACHE": {
         "description": "AHB-Lite SPI Flash memory controller with direct mapped cache and support for XiP.",
-        "repo": "github.com/chipfoundry/MS_SPI_XIP_CACHE",
+        "repo": "github.com/efabless/MS_SPI_XIP_CACHE",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -920,9 +889,9 @@
     },
     "MS_DMAC_AHBL": {
         "description": "Direct Memory Access Controller (DMAC) with AHB-lite bus interface.",
-        "repo": "github.com/chipfoundry/MS_DMAC_AHBL",
+        "repo": "github.com/efabless/MS_DMAC_AHBL",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -1105,7 +1074,7 @@
     },
     "EF_AES": {
         "description": "Verilog implementation of the symmetric block cipher AES (Advanced Encryption Standard) as specified in NIST FIPS 197. This implementation supports 128 and 256 bit keys.",
-        "repo": "github.com/chipfoundry/EF_AES",
+        "repo": "github.com/efabless/EF_AES",
         "author": "Joachim Strombergson",
         "email": "",
         "owner": "secworks",
@@ -1139,7 +1108,7 @@
     },
     "SW_AES": {
         "description": "Verilog implementation of the symmetric block cipher AES (Advanced Encryption Standard) as specified in NIST FIPS 197. This implementation supports 128 and 256 bit keys.",
-        "repo": "github.com/chipfoundry/SW_AES",
+        "repo": "github.com/efabless/SW_AES",
         "author": "Joachim Strombergson",
         "email": "",
         "owner": "secworks",
@@ -1207,7 +1176,7 @@
     },
     "EF_SHA256": {
         "description": "Hardware implementation of the SHA-256 cryptographic hash function.",
-        "repo": "github.com/chipfoundry/EF_SHA256",
+        "repo": "github.com/efabless/EF_SHA256",
         "author": "Joachim Strombergson",
         "email": "",
         "owner": "secworks",
@@ -1241,7 +1210,7 @@
     },
     "SW_SHA256": {
         "description": "Hardware implementation of the SHA-256 cryptographic hash function.",
-        "repo": "github.com/chipfoundry/SW_SHA256",
+        "repo": "github.com/efabless/SW_SHA256",
         "author": "Joachim Strombergson",
         "email": "",
         "owner": "secworks",
@@ -1305,14 +1274,13 @@
                 "draft": false,
                 "sha256": "32c2f33d198a1bdbac5a03aa8a0328146ca58b37b7f63f5f9473e2b0473aa600"
             }
-            
         }
     },
     "EF_ACMP_DI": {
         "description": "A digital interface for the EF_R2RVC02 analog comparator",
-        "repo": "github.com/chipfoundry/EF_ACMP_DI",
+        "repo": "github.com/efabless/EF_ACMP_DI",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "ams",
         "technology": "n/a",
@@ -1360,9 +1328,9 @@
     },
     "EF_DAC1001_DI": {
         "description": "10-Bit Switching Capacitor Array Digital to Analog Converter (DAC) with a digital interface.",
-        "repo": "github.com/chipfoundry/EF_IPs",
+        "repo": "github.com/efabless/EF_DAC1001_DI",
         "author": "Ahmed Reda",
-        "email": "ahmed.reda@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "ams",
         "technology": "sky130",
@@ -1432,9 +1400,9 @@
     },
     "EF_Q7_UNIT": {
         "description": "Accelerators for NNoM framework.",
-        "repo": "github.com/chipfoundry/EF_Q7_UNIT",
+        "repo": "github.com/efabless/EF_Q7_UNIT",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -1515,16 +1483,16 @@
         }
     },
     "EF_ADCS1008A": {
-        "description": "A digital controller for 8 Channel 10-bit SAR ADC.",
-        "repo": "github.com/chipfoundry/EF_ADC1008A",
+        "description":"A digital controller for EF_ADCS1008NC, 8 Channel 10-bit SAR ADC",
+        "repo": "github.com/efabless/EF_ADCS1008A",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
-        "category": "ams",
+        "category": "digital",
         "technology": "n/a",
         "license": "APACHE 2.0",
         "tags": [
-            "peripheral",
+            "controller",
             "data converter"
         ],
         "release": {
@@ -1600,9 +1568,9 @@
     },
     "DFFRAM128x32": {
         "description": "512 bytes (128x32) DFFRAM hardened using OpenLane",
-        "repo": "github.com/chipfoundry/OL-DFFRAM",
+        "repo": "github.com/efabless/OL-DFFRAM",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "AUCOHL",
         "category": "digital",
         "technology": "sky130",
@@ -1651,9 +1619,9 @@
     },
     "DFFRAM256x32": {
         "description": "1kbyte (256x32) DFFRAM hardened using OpenLane",
-        "repo": "github.com/chipfoundry/OL-DFFRAM",
+        "repo": "github.com/efabless/OL-DFFRAM",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "AUCOHL",
         "category": "digital",
         "technology": "sky130",
@@ -1719,9 +1687,9 @@
     },
     "DFFRAM512x32": {
         "description": "2kbyte (512x32) DFFRAM hardened using OpenLane",
-        "repo": "github.com/chipfoundry/OL-DFFRAM",
+        "repo": "github.com/efabless/OL-DFFRAM",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "AUCOHL",
         "category": "digital",
         "technology": "sky130",
@@ -1770,9 +1738,9 @@
     },
     "EF_PIN_MUX": {
         "description": "Pin Multiplexing Fabric; 32 pins x four functions per pin.",
-        "repo": "github.com/chipfoundry/EF_PIN_MUX",
+        "repo": "github.com/efabless/EF_PIN_MUX",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -1989,9 +1957,9 @@
     },
     "EF_WDT32": {
         "description": "A 32-bit Watchdog Timer",
-        "repo": "github.com/chipfoundry/EF_WDT32",
+        "repo": "github.com/efabless/EF_WDT32",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -2023,9 +1991,9 @@
     },
     "MS_WDT32": {
         "description": "A 32-bit Watchdog Timer",
-        "repo": "github.com/chipfoundry/MS_WDT32",
+        "repo": "github.com/efabless/MS_WDT32",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -2157,76 +2125,9 @@
             }
         }
     },
-    "rosc_sky130": {
-        "description": "A standard cell based ring oscillator with enable and trim.",
-        "repo": "github.com/chipfoundry/rosc_sky130",
-        "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
-        "owner": "Efabless Corp.",
-        "category": "digital",
-        "technology": "sky130",
-        "license": "APACHE 2.0",
-        "tags": [
-            "oscillator",
-            "frequency scaling"
-        ],
-        "release": {
-            "v1.0.0": {
-                "date": "1-1-2023",
-                "maturity": "Implemented",
-                "bus": [
-                    "generic"
-                ],
-                "type": "soft",
-                "width": "0",
-                "height": "0",
-                "cell_count": "170",
-                "clock_freq_mhz": "10",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "4aca6a5e5ca1e66341a9b3de6b47908098fa1cf40e406fd9f505474ab0bfe22b"
-            },
-            "v1.0.1": {
-                "date": "1-1-2023",
-                "maturity": "Implemented",
-                "bus": [
-                    "generic"
-                ],
-                "type": "soft",
-                "width": "0",
-                "height": "0",
-                "cell_count": "170",
-                "clock_freq_mhz": "10",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "f63b1d5ad049f131f762879ab275a6970e13f110ac9c59a04d87db053f78bd53"
-            },
-            "v1.0.2": {
-                "date": "1-1-2023",
-                "maturity": "Implemented",
-                "bus": [
-                    "generic"
-                ],
-                "type": "soft",
-                "width": "0",
-                "height": "0",
-                "cell_count": "170",
-                "clock_freq_mhz": "10",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "e64d7b64a20275f0a47eb0d324887a28404989f9310cb1d00893c35f756a60fa"
-            }
-        }
-    },
     "sky130_ef_ip__xtal_osc_32k": {
         "description": "ultra-low-power, low speed crystal oscillator",
-        "repo": "github.com/chipfoundry/sky130_ef_ip__xtal_osc_32k",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_32k",
         "author": "Tim Edwards",
         "email": "tim@efabless.com",
         "owner": "Efabless Corp.",
@@ -2277,9 +2178,9 @@
     },
     "sky130_ef_ip__xtal_osc_32k_DI": {
         "description": "Digital wrapper for an ultra-low-power, low speed crystal oscillator",
-        "repo": "github.com/chipfoundry/sky130_ef_ip__xtal_osc_32k_DI",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_32k_DI",
         "author": "Marwan Abbas",
-        "email": "marwan.abbas@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "analog",
         "technology": "sky130",
@@ -2320,7 +2221,9 @@
                 "clock_freq_mhz": "0.032768",
                 "supply_voltage": [
                     "1.8"
-                ]
+                ],
+                "draft": false,
+                "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
             },
             "v1.0.3": {
                 "date": "1-11-2023",
@@ -2343,7 +2246,7 @@
     },
     "sky130_ef_ip__rc_osc_500k": {
         "description": "A 500kHz oscillator using a current-starved ring oscillator",
-        "repo": "github.com/chipfoundry/sky130_ef_ip__rc_osc_500k",
+        "repo": "github.com/efabless/sky130_ef_ip__rc_osc_500k",
         "author": "Tim Edwards",
         "email": "tim@efabless.com",
         "owner": "Efabless Corp.",
@@ -2410,10 +2313,10 @@
     },
     "sky130_ef_ip__rc_osc_500k_DI": {
         "description": "Digital wrapper for A 500kHz oscillator using a current-starved ring oscillator",
-        "repo": "github.com/chipfoundry/EF_IPs",
+        "repo": "github.com/efabless/EF_IPs",
         "owner": "Efabless Corp.",
         "author": "Marwan Abbas",
-        "email": "marwan.abbas@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "category": "analog",
         "technology": "sky130",
         "license": "APACHE 2.0",
@@ -2516,7 +2419,7 @@
     },
     "sky130_ef_ip__xtal_osc_16M": {
         "description": "High speed crystal oscillator",
-        "repo": "github.com/chipfoundry/sky130_ef_ip__xtal_osc_16M",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_16M",
         "author": "Tim Edwards",
         "email": "tim@efabless.com",
         "owner": "Efabless Corp.",
@@ -2566,9 +2469,9 @@
     },
     "sky130_ef_ip__xtal_osc_16M_DI": {
         "description": "Digital wrapper for high speed crystal oscillator",
-        "repo": "github.com/chipfoundry/sky130_ef_ip__xtal_osc_16M_DI",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_16M_DI",
         "author": "Marwan Abbas",
-        "email": "marwan.abbas@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "analog",
         "technology": "sky130",
@@ -2648,62 +2551,11 @@
             }
         }
     },
-    "EF_dll_sky130": {
-        "description": "Digital Locked Loop (ring oscillator + controller).",
-        "repo": "github.com/chipfoundry/EF_dll_sky130",
-        "author": "Tim Edwards",
-        "email": "tim@efabless.com",
-        "owner": "Efabless Corp.",
-        "category": "digital",
-        "technology": "sky130",
-        "license": "APACHE 2.0",
-        "tags": [
-            "digital locked loop",
-            "frequency locked loop",
-            "frequency scaling"
-        ],
-        "release": {
-            "v1.0.0": {
-                "date": "1-1-2021",
-                "maturity": "Implemented",
-                "bus": [
-                    "generic"
-                ],
-                "type": "soft",
-                "width": "0",
-                "height": "0",
-                "cell_count": "360",
-                "clock_freq_mhz": "113",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "04be802dc7b6142564a48d0ffe32f3dcfa9da745508f09565794f67b1155efe1"
-            },
-            "v1.0.1": {
-                "date": "1-1-2021",
-                "maturity": "Implemented",
-                "bus": [
-                    "generic"
-                ],
-                "type": "soft",
-                "width": "0",
-                "height": "0",
-                "cell_count": "360",
-                "clock_freq_mhz": "113",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "7f6c0a981d9ce920d5cbb6cfef3b53ed3c5d39283bd4d7704e73e0bca2b24add"
-            }
-        }
-    },
     "EF_CLK_RST_V2": {
         "description": "All digital Clock and Reset Manager with on-chip crystal oscillators.",
-        "repo": "github.com/chipfoundry/EF_CLK_RST_V2",
+        "repo": "github.com/efabless/EF_CLK_RST_V2",
         "author": "Bassant Hassan",
-        "email": "bassant.hassan@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "sky130",
@@ -2906,10 +2758,10 @@
     },
     "EF_I2S": {
         "description": "I2S receiver with a FIFO",
-        "repo": "github.com/chipfoundry/EF_I2S",
+        "repo": "github.com/efabless/EF_I2S",
         "owner": "Efabless Corp.",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "category": "digital",
         "technology": "n/a",
         "license": "APACHE 2.0",
@@ -3280,7 +3132,7 @@
     },
     "usb_cdc": {
         "description": "An implementation of the Full Speed (12Mbit/s) USB communications device class",
-        "repo": "github.com/chipfoundry/usb_cdc",
+        "repo": "github.com/efabless/usb_cdc",
         "author": "ulixxe",
         "email": "",
         "owner": "ulixxe",
@@ -3315,9 +3167,9 @@
     },
     "usb_cdc_wrapper": {
         "description": "Bus wrapper for usb cdc which utilizes fifo",
-        "repo": "github.com/chipfoundry/usb_cdc_wrapper",
+        "repo": "github.com/efabless/usb_cdc_wrapper",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
@@ -3399,7 +3251,7 @@
     },
     "I2C": {
         "description": "Verilog I2C interface for FPGA implementation",
-        "repo": "github.com/chipfoundry/I2C",
+        "repo": "github.com/efabless/I2C",
         "author": "Alex Forencich",
         "email": "",
         "owner": "Alex Forencich",
@@ -3433,9 +3285,9 @@
     },
     "EF_I2C": {
         "description": "I2C master controller with an APB interface",
-        "repo": "github.com/chipfoundry/EF_I2C",
+        "repo": "github.com/efabless/EF_I2C",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "digital",
         "technology": "n/a",
@@ -3705,9 +3557,9 @@
     },
     "EF_TMR32": {
         "description": "A 32-bit timer and PWM generator",
-        "repo": "github.com/chipfoundry/EF_TMR32",
+        "repo": "github.com/efabless/EF_TMR32",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "digital",
         "technology": "n/a",
@@ -3946,9 +3798,9 @@
     },
     "EF_SPI": {
         "description": "SPI master controller with receive and transmit FIFOs.",
-        "repo": "github.com/chipfoundry/EF_SPI",
+        "repo": "github.com/efabless/EF_SPI",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "digital",
         "technology": "n/a",
@@ -4184,9 +4036,9 @@
     },
     "EF_SRAM_1024x32": {
         "description": "Commercial 1024x3 SRAM",
-        "repo": "github.com/chipfoundry/EF_SRAM_1024x32",
+        "repo": "github.com/efabless/EF_SRAM_1024x32",
         "author": "Efabless Corp.",
-        "email": "purchase_ip@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "sky130",
@@ -4336,9 +4188,9 @@
     },
     "EF_QSPI_FLASH_WRITER": {
         "description": "A Quad SPI Flash Writer used to program flash. It can be used along with flash controller to program the flash then read from it.",
-        "repo": "github.com/chipfoundry/EF_QSPI_FLASH_WRITER",
+        "repo": "github.com/efabless/EF_QSPI_FLASH_WRITER",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "digital",
         "technology": "n/a",
@@ -4370,7 +4222,7 @@
                 "date": "2025-01-23",
                 "maturity": "verified",
                 "bus": [
-                "AHBL"
+                    "AHBL"
                 ],
                 "type": "soft",
                 "width": "",
@@ -4378,7 +4230,7 @@
                 "cell_count": "N/A",
                 "clock_freq_mhz": "N/A",
                 "supply_voltage": [
-                "n/a"
+                    "n/a"
                 ],
                 "draft": false,
                 "sha256": "3acfa8a96673a1e0e3b56156576da0d6aef89b5a35cae5452385560d52991db7"
@@ -4387,9 +4239,9 @@
     },
     "EF_QSPI_XIP_CTRL": {
         "description": "A QSPI XiP Flash COntroller with a parameterized Direct-Mapped Cache.",
-        "repo": "github.com/chipfoundry/EF_QSPI_XIP_CTRL",
+        "repo": "github.com/efabless/EF_QSPI_XIP_CTRL",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "digital",
         "technology": "n/a",
@@ -4506,9 +4358,9 @@
     },
     "EF_eFPGA": {
         "description": "An embedded FPGA.",
-        "repo": "github.com/chipfoundry/EF_eFPGA",
+        "repo": "github.com/efabless/EF_eFPGA",
         "author": "Efabless",
-        "email": "purchase_ip@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "digital",
         "technology": "sky130",
@@ -4539,9 +4391,9 @@
     },
     "EF_R2RVC02": {
         "description": "Rail-Rail Dual Channel Voltage Comparator, Dual Power Supply.",
-        "repo": "github.com/chipfoundry/EF_R2RVC02",
+        "repo": "github.com/efabless/EF_R2RVC02",
         "author": "Efabless",
-        "email": "purchase_ip@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp",
         "category": "mixed",
         "technology": "sky130",
@@ -4570,62 +4422,556 @@
             }
         }
     },
-    "EF_DACSCA1001": {
-        "description": "10-Bit Rail-to- Rail Digital-Analog-Converter",
-        "repo": "github.com/chipfoundry/EF_DACSCA1001",
-        "author": "Efabless",
-        "email": "purchase_ip@efabless.com",
-        "owner": "Efabless Corp",
-        "category": "mixed",
-        "technology": "sky130",
-        "license": "APACHE 2.0",
+    "EF_ADCS1008NC": {
+        "description": "10-Bit, 8-channel SAR Analog-Digital-Converter without SAR controller",
+        "repo": "github.com/efabless/EF_ADCS1008NC",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "ams",
+        "technology": "n/a",
+        "license": "Apache 2.0",
         "tags": [
-            "Digital Analog Converter"
+            "ADC",
+            "SAR"
         ],
         "release": {
-            "v1.0.0": {
-                "date": "9-1-2023",
-                "maturity": "Implemented",
-                "bus": [
+            "v0.1.0": {
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "maturity": "broken",
+                "supply_voltage": [
                     "n/a"
                 ],
-                "type": "hard",
-                "width": "0.365",
-                "height": "0.168",
-                "cell_count": "0",
-                "clock_freq_mhz": "n/a",
-                "supply_voltage": [
-                    "3.3",
-                    "1.8"
-                ],
                 "draft": false,
-                "sha256": "089fb983e1f42ed95ce9f3592b3a5252f046c31cd0b8346590e13598c2fc2d6d"
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
             }
         }
     },
-    "EF_IP_UTIL": {
-        "description": "A set of utilities that can be used to develop digital IPs in Verilog HDL",
-        "repo": "github.com/chipfoundry/EF_IP_UTIL",
+    "EF_DLL_SKY130": {
+        "description": "DLL SKY130 IP",
+        "repo": "github.com/efabless/EF_DLL_SKY130",
         "author": "Efabless Corp.",
-        "email": "ip_admin@efabless.com",
+        "email": "ip_admin@chipfoundry.io",
         "owner": "Efabless Corp.",
         "category": "digital",
         "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "DLL",
+            "Clock"
+        ],
+        "release": {
+            "v1.0.1": {
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "EF_DMAC_AHBL-OLD": {
+        "description": "DMAC AHBL OLD IP",
+        "repo": "github.com/efabless/EF_DMAC_AHBL-OLD",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "DMAC",
+            "AHBL"
+        ],
+        "release": {
+            "v1.0.9": {
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "maturity": "broken",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "EF_LDOR1V8": {
+        "description": "LDOR1V8 IP",
+        "repo": "github.com/efabless/EF_LDOR1V8",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "LDO",
+            "1V8"
+        ],
+        "release": {
+            "v0.1.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "EF_QSPI_FLASH_CTRL": {
+        "description": "QSPI FLASH CTRL IP",
+        "repo": "github.com/efabless/EF_QSPI_FLASH_CTRL",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "QSPI",
+            "FLASH"
+        ],
+        "release": {
+            "v0.1.0": {
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "maturity": "broken",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "EF_SRAM_4096x8": {
+        "description": "SRAM 4096x8 IP",
+        "repo": "github.com/efabless/EF_SRAM_4096x8",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "SRAM",
+            "4KB"
+        ],
+        "release": {
+            "not-released": {
+                "maturity": "tbd",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": true,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "EF_USB_CDC_WRAPPER": {
+        "description": "USB CDC WRAPPER IP",
+        "repo": "github.com/efabless/EF_USB_CDC_WRAPPER",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "USB",
+            "CDC"
+        ],
+        "release": {
+            "v1.0.3": {
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "maturity": "broken",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "EF_UVM": {
+        "description": "UVM IP",
+        "repo": "github.com/efabless/EF_UVM",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "uvm",
+            "vip",
+            "verification"
+        ],
+        "release": {
+            "v0.1.0": {
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "maturity": "broken",
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__adc3v_12bit": {
+        "description": "ADC3V 12-bit IP",
+        "repo": "github.com/efabless/sky130_ef_ip__adc3v_12bit",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "adc",
+            "3v"
+        ],
+        "release": {
+            "v1.0.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__analog_switches": {
+        "description": "Analog Switches IP",
+        "repo": "github.com/efabless/sky130_ef_ip__analog_switches",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "switches",
+            "3v"
+        ],
+        "release": {
+            "v1.0.2": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__ccomp3v": {
+        "description": "CCOMP3V IP",
+        "repo": "github.com/efabless/sky130_ef_ip__ccomp3v",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "comp",
+            "3v"
+        ],
+        "release": {
+            "v1.0.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__cdac3v_12bit": {
+        "description": "CDAC3V 12-bit IP",
+        "repo": "github.com/efabless/sky130_ef_ip__cdac3v_12bit",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "cdac",
+            "3v"
+        ],
+        "release": {
+            "v1.0.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__opamp": {
+        "description": "Op-Amp IP",
+        "repo": "github.com/efabless/sky130_ef_ip__opamp",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "opamp",
+            "3v"
+        ],
+        "release": {
+            "v0.1.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__power_on_reset": {
+        "description": "Power-on Reset IP",
+        "repo": "github.com/efabless/sky130_ef_ip__power_on_reset",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "por",
+            "power"
+        ],
+        "release": {
+            "v0.1.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__rdac3v_8bit": {
+        "description": "RDAC3V 8-bit IP",
+        "repo": "github.com/efabless/sky130_ef_ip__rdac3v_8bit",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "rdac",
+            "3v"
+        ],
+        "release": {
+            "v0.1.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__samplehold": {
+        "description": "Sample and Hold IP",
+        "repo": "github.com/efabless/sky130_ef_ip__samplehold",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "sample",
+            "hold"
+        ],
+        "release": {
+            "v1.0.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "height": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__simple_por": {
+        "description": "Simple Power-on Reset IP",
+        "repo": "github.com/efabless/sky130_ef_ip__simple_por",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
+        "license": "Apache 2.0",
+        "tags": [
+            "por",
+            "power"
+        ],
+        "release": {
+            "v0.1.0": {
+                "maturity": "Implemented",
+                "date": "2025-1-9",
+                "bus": [],
+                "type": "hard",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "n/a",
+               "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            }
+        }
+    },
+    "sky130_ef_ip__template": {
+        "description": "Template IP",
+        "repo": "github.com/efabless/sky130_ef_ip__template",
+        "author": "Efabless Corp.",
+        "email": "ip_admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "analog",
+        "technology": "sky130",
         "license": "Apache 2.0",
         "tags": [
             "fifo",
             "clock mux"
         ],
         "release": {
-            "v1.0.0": {
+            "v0.1.0": {
+                "maturity": "Implemented",
                 "date": "2025-1-9",
-                "bus": [
-                ],
+                "bus": [],
                 "type": "soft",
                 "width": "0",
                 "height": "0",
+                "cell_count": "n/a",
                 "clock_freq_mhz": "n/a",
-                "maturity": "Implemented",
                 "supply_voltage": [
                     "n/a"
                 ],
