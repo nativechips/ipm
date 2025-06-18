@@ -6,7 +6,7 @@ IPM is an open-source ChipIgnite Program IPs Package Manager; it is meant to pro
 IPM is now on PyPi, you can install it using this command:
 
 ```bash
-pip install ipmgr
+pip install cf-ipm
 ```
 
 To verify it is working run: 

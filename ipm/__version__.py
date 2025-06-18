@@ -18,7 +18,7 @@ import importlib.metadata
 
 def __get_version():
     try:
-        return importlib.metadata.version("ipmgr")
+        return importlib.metadata.version("cf-ipm")
     except importlib.metadata.PackageNotFoundError:
         import re
 

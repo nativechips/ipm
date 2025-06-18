@@ -7,7 +7,7 @@ from .__version__ import __version__
 
 
 def check_for_updates(logger):
-    package_name = "ipmgr"
+    package_name = "cf-ipm"
     # config_file = os.path.join(os.path.expanduser("~"), ".ipm", "ipm_package.json")
 
     # def load_last_check():

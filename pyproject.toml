@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ipmgr"
+name = "cf-ipm"
 version = "1.2.0"
 description = "Package manager for Open Source ASIC IPs"
 authors = ["Efabless Corporation <marwan.abbas@efabless.com>"]
