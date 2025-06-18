@@ -1,5 +1,5 @@
 # IPM
-IPM is an open-source ChipIgnite Program IPs Package Manager; it is meant to provide a mean for distributing high quality IPs. IPM is tied to the IPs that can be found in [Efabless Market Place](https://platform.efabless.com/design_catalog/ip_block).
+IPM is an open-source ChipIgnite Program IPs Package Manager; it is meant to provide a mean for distributing high quality IPs.
 
 ## Installation
 
@@ -18,7 +18,7 @@ ipm --version
 # Usage
 
 ## List all available IPs
-You can do that by visiting the [Efabless Market Place](https://platform.efabless.com/design_catalog/ip_block), Or using this command
+
 ```bash
 ipm ls-remote
 ``` 
@@ -108,7 +108,7 @@ ipm update [IP_NAME][OPTIONS]
 ## Adding your IP to IPM
 
 > [!CAUTION]
-> The next part is a WIP, and for now only Efabless can add IPs to IPM and the market place. If you are interested in adding your own IP please contact Efabess.
+> Please contact us directly at info@chipfoundry.io to add your IP to IPM.
 
 To add your own IP to our package manager, you should follow these steps:
 
@@ -237,4 +237,3 @@ IPM team will then perform set of sanity checks to ensure the quality of the sub
 
 ## Additional Docs
 - [Awesome Sky130 IPs](https://github.com/shalan/Awesome-Sky130-IPs)
-- [Sky130 Open-source IP Catalog](https://github.com/efabless/skywater-pdk-central/blob/main/design-ip.md)
