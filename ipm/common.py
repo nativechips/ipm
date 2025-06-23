@@ -221,7 +221,21 @@ class IPInfo:
                 logger.print_err(f"IP {ip_name} not found in the release list.")
                 exit(1)
         else:
-            return data
+            # When listing all IPs, filter out IPs with only draft releases if include_drafts is False
+            result = {}
+            for ip_name, ip_info in data.items():
+                releases = ip_info.get("release", {})
+                if not include_drafts:
+                    filtered_releases = {
+                        version: info
+                        for version, info in releases.items()
+                        if not info.get("draft", False)
+                    }
+                    if filtered_releases:
+                        result[ip_name] = {**ip_info, "release": filtered_releases}
+                else:
+                    result[ip_name] = ip_info
+            return result
 
     @staticmethod
     def get_installed_ips(ip_root):
@@ -1245,14 +1259,16 @@ def check_ip_root_dir(ip_root) -> bool:
         return True
 
 
-def list_verified_ips(category=None, technology=None):
-    """creates a table of all verified remote ips
+def list_verified_ips(category=None, technology=None, include_drafts=False, local_file=None):
+    """creates a table of all verified remote ips or from a local file
 
     Args:
         category (str, optional): filter the ips by category. Defaults to None.
         technology (str, optional): filter the ips by technology. Defaults to None.
+        include_drafts (bool, optional): include draft IPs. Defaults to False.
+        local_file (str, optional): path to local verified_IPs.json. Defaults to None.
     """
-    verified_ips = IPInfo.get_verified_ip_info()
+    verified_ips = IPInfo.get_verified_ip_info(include_drafts=include_drafts, local_file=local_file)
     ip_list = []
     logger = Logger()
     check_for_updates(logger)

@@ -111,14 +111,24 @@ def uninstall(
     required=False,
     help="Optionally provide the technology (sky130A, gf180mcuC)",
 )
-def ls_remote_cmd(category, technology):
+@click.option(
+    "--include-drafts",
+    is_flag=True,
+    help="Include draft IPs in the listing",
+)
+@click.option(
+    "--local-file",
+    required=False,
+    help="Path to local verified_IPs.json file",
+)
+def ls_remote_cmd(category, technology, include_drafts, local_file):
     """Lists all verified IPs in ipm's database"""
-    ls_remote(category, technology)
+    ls_remote(category, technology, include_drafts, local_file)
 
 
-def ls_remote(category, technology):
+def ls_remote(category, technology, include_drafts=False, local_file=None):
     """Lists all verified IPs in ipm's database"""
-    list_verified_ips(category, technology)
+    list_verified_ips(category, technology, include_drafts=include_drafts, local_file=local_file)
 
 
 @click.command("info")

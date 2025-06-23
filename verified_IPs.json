@@ -53,7 +53,7 @@
                 "bus": [
                     "WB"
                 ],
-                "type": "soft",
+                "type": "hard",
                 "width": "387.87",
                 "height": "303.315",
                 "cell_count": "0",
@@ -70,7 +70,7 @@
                 "bus": [
                     "WB"
                 ],
-                "type": "soft",
+                "type": "hard",
                 "width": "387.87",
                 "height": "303.315",
                 "cell_count": "0",
@@ -3242,6 +3242,7 @@
                 "height": "0.0",
                 "cell_count": "0",
                 "clock_freq_mhz": "48",
+                "draft": true,
                 "supply_voltage": [
                     "n/a"
                 ]
