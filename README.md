@@ -236,4 +236,4 @@ IPM team will then perform set of sanity checks to ensure the quality of the sub
 - That the IP is DRC clean
 
 ## Additional Docs
-- [Awesome Sky130 IPs](https://github.com/shalan/Awesome-Sky130-IPs)
+- [Awesome Sky130 IPs](https://github.com/chipfoundry/Awesome-Sky130-IPs)
