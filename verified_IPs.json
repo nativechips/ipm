@@ -83,6 +83,39 @@
             }
         }
     },
+    "CF_SRAM_4096x32": {
+        "description": "Commercial 4096x32 SRAM",
+        "repo": "github.com/chipfoundry/CF_SRAM_4096x32",
+        "author": "Umbralogic Technologies LLC.",
+        "email": "ip-admin@chipfoundry.io",
+        "owner": "Umbralogic Technologies LLC.",
+        "category": "memory",
+        "technology": "sky130",
+        "license": "",
+        "tags": [
+            "memory",
+            "sram"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "14-07-2025",
+                "maturity": "Integrated",
+                "bus": [
+                    "WB"
+                ],
+                "type": "hard",
+                "width": "720",
+                "height": "920",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "1.8"
+                ],
+                "draft": true,
+                "sha256": "56db9dab96aa46e34ee1ea7cdca34feed069b768a2023abd185fe59bc39a7b8e"
+            }
+        }
+    },
     "EF_PSRAM_CTRL_V2": {
         "description": "A Controller for Quad I/O SPI PSRAM",
         "repo": "github.com/chipfoundry/EF_PSRAM_CTRL_V2",
