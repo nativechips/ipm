@@ -1142,7 +1142,7 @@ def install_ip(ip_name, version, ip_root, ipm_root, include_drafts, local_file):
 
     try:
         ip = IP.find_verified_ip(ip_name, version, ipm_root, ip_root, include_drafts, local_file)
-        root.try_add(ip)
+        root.try_add(ip, include_drafts, local_file)
     except RuntimeError as e:
         logger.print_err(e)
         exit(-1)
@@ -1353,7 +1353,7 @@ def update_ips(ipm_root, ip_root=None, ip_to_update=None, include_drafts=False, 
                         f"Updating IP {ip_name} to [magenta]{version}[/magenta]…"
                     )
                     ip = IP.find_verified_ip(ip_name, version, ipm_root, ip_root, include_drafts, local_file)
-                    root.try_add(ip)
+                    root.try_add(ip, include_drafts, local_file)
                 else:
                     logger.print_info(
                         f"IP {ip_name} is the newest version [magenta]{version}[/magenta]."
