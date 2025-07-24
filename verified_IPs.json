@@ -80,6 +80,23 @@
                 ],
                 "draft": false,
                 "sha256": "374c1b8b2ea95c6c4894837b5fc2d10884f5295dafe794b9e211d66fce374632"
+            },
+            "v1.1.1": {
+                "date": "24-07-2025",
+                "maturity": "Integrated",
+                "bus": [
+                    "WB"
+                ],
+                "type": "hard",
+                "width": "387.87",
+                "height": "303.315",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "1.8"
+                ],
+                "draft": false,
+                "sha256": "04b824e89bbb18000466f31c9b41d9e030547f2c62dbbd984ec77d952b1149c2"
             }
         }
     },
@@ -128,7 +145,7 @@
                 "supply_voltage": [
                     "1.8"
                 ],
-                "draft": true,
+                "draft": false,
                 "sha256": "9a78bc210330e5420b658abb6cb4d01a9e7a003d2992f180223971ab89dec6c6"
             }
         }
