@@ -5132,5 +5132,35 @@
                 "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
             }
         }
+    },
+    "EF_IP_UTIL": {
+        "description": "IP utility",
+        "repo": "github.com/chipfoundry/EF_IP_UTIL",
+        "author": "Efabless Corp.",
+        "email": "ip-admin@chipfoundry.io",
+        "owner": "Efabless Corp.",
+        "category": "digital",
+        "technology": "",
+        "license": "Apache 2.0",
+        "tags": [
+            "utility"
+        ],
+        "release": {
+            "v1.0.0": {
+                "maturity": "Implemented",
+                "date": "2025-27-7",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": true,
+                "sha256": "46040f55df14827f21fc9ffd511444c3510cf5c8348e004350c49485a0e6e85c"
+            }
+        }
     }
 }
