@@ -3931,9 +3931,9 @@
             }
         }
     },
-    "EF_SPI": {
+    "CF_SPI": {
         "description": "SPI master controller with receive and transmit FIFOs.",
-        "repo": "github.com/chipfoundry/EF_SPI",
+        "repo": "github.com/chipfoundry/CF_SPI",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Efabless Corp",
@@ -4166,6 +4166,23 @@
                 ],
                 "draft": true,
                 "sha256": "87b0f284b7b78b1bf3daefe1abc13f21825479e9b0aa13689fe5f565ddf2f3c0"
+            },
+            "v2.0.0": {
+                "date": "27-07-2025",
+                "maturity": "Integrated",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0.0",
+                "height": "0.0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": true,
+                "sha256": "8d7ec9577fb1aeb5da389e86c28d7fa0d998df8fb4167493c6e54bf515720bac"
             }
         }
     },
