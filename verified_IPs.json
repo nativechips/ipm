@@ -13,7 +13,7 @@
             "psram"
         ],
         "release": {
-            "v1.0.0": {
+            "v1.0.8": {
                 "date": "4-01-2023",
                 "maturity": "Implemented",
                 "bus": [
@@ -29,7 +29,7 @@
                     "n/a"
                 ],
                 "draft": true,
-                "sha256": "1a2530d23671d2fcfa711eb829b3018be30d6392da6b4936f1341366c5074e2a"
+                "sha256": "98dd74a3263a468e557852b035a051ed6cd0590c6303e910295a54e2af834d9b"
             }
         }
     },
