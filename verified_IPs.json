@@ -5164,6 +5164,7 @@
         ],      
         "release": {
             "v1.0.0": {
+                "maturity": "Implemented",
                 "date": "30-09-2024",
                 "bus": [
                 ],
