@@ -5121,7 +5121,7 @@
     },
     "EF_IP_UTIL": {
         "description": "IP utility",
-        "repo": "github.com/efabless/EF_IP_UTIL",
+        "repo": "github.com/chipfoundry/EF_IP_UTIL",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Efabless Corp.",
