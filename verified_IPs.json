@@ -4595,7 +4595,7 @@
     },
     "EF_IP_UTIL": {
         "description": "IP utility",
-        "repo": "github.com/chipfoundry/EF_IP_UTIL",
+        "repo": "github.com/efabless/EF_IP_UTIL",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Efabless Corp.",
@@ -4619,7 +4619,7 @@
                     "n/a"
                 ],
                 "draft": true,
-                "sha256": "46040f55df14827f21fc9ffd511444c3510cf5c8348e004350c49485a0e6e85c"
+                "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
             }
         }
     },
@@ -4662,10 +4662,10 @@
         "category": "digital",
         "technology": "n/a",
         "license": "Apache 2.0",
-        "tags": [   
+        "tags": [
             "fifo",
             "clock mux"
-        ],      
+        ],
         "release": {
             "v1.0.0": {
                 "maturity": "Implemented",
@@ -4673,7 +4673,7 @@
                 "bus": [
                 ],
                 "type": "soft",
-                "width": "0", 
+                "width": "0",
                 "height": "0",
                 "cell_count": "n/a",
                 "clock_freq_mhz": "n/a",
@@ -4683,6 +4683,6 @@
                 "draft": true,
                 "sha256": "c0ae31fb4252e40d4237623558d70e0fee1239e1c29f1e2ff906f1763f2aa690"
             }
-        }   
-    }  
+        }
+    }
 }
