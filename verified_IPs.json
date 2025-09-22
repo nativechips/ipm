@@ -35,7 +35,7 @@
     },
     "CF_SRAM_1024x32": {
         "description": "Commercial 1024x32 SRAM",
-        "repo": "github.com/chipfoundry/CF_SRAM_1024x32",
+        "repo": "github.com/nativechips/CF_SRAM_1024x32",
         "author": "Umbralogic Technologies LLC.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Umbralogic Technologies LLC.",
@@ -47,8 +47,8 @@
             "sram"
         ],
         "release": {
-            "v1.0.0": {
-                "date": "20-06-2025",
+            "v1.0.0-nc": {
+                "date": "22-09-2025",
                 "maturity": "Integrated",
                 "bus": [
                     "WB"
@@ -62,58 +62,7 @@
                     "1.8"
                 ],
                 "draft": false,
-                "sha256": "f843cefc8194c08b91ca3eb5bc96db78d70d0414b0082237beeffb321c7659b4"
-            },
-            "v1.1.0": {
-                "date": "21-06-2025",
-                "maturity": "Integrated",
-                "bus": [
-                    "WB"
-                ],
-                "type": "hard",
-                "width": "387.87",
-                "height": "303.315",
-                "cell_count": "0",
-                "clock_freq_mhz": "0",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "374c1b8b2ea95c6c4894837b5fc2d10884f5295dafe794b9e211d66fce374632"
-            },
-            "v1.1.1": {
-                "date": "24-07-2025",
-                "maturity": "Integrated",
-                "bus": [
-                    "WB"
-                ],
-                "type": "hard",
-                "width": "387.87",
-                "height": "303.315",
-                "cell_count": "0",
-                "clock_freq_mhz": "0",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "04b824e89bbb18000466f31c9b41d9e030547f2c62dbbd984ec77d952b1149c2"
-            },
-            "v1.2.0": {
-                "date": "19-08-2025",
-                "maturity": "Integrated",
-                "bus": [
-                    "WB"
-                ],
-                "type": "hard",
-                "width": "387.87",
-                "height": "303.315",
-                "cell_count": "0",
-                "clock_freq_mhz": "0",
-                "supply_voltage": [
-                    "1.8"
-                ],
-                "draft": false,
-                "sha256": "72089cb243f2c5fe37beb52b5c5ad8c9f43a22cc8488239e2051ae77042f6688"
+                "sha256": "d76d6cb467f122cde0aabc83734ba0c37381ef2bce091f5772721e71491d19d8"
             }
         }
     },
