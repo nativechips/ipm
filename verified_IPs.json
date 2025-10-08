@@ -47,8 +47,8 @@
             "sram"
         ],
         "release": {
-            "v1.0.0-nc": {
-                "date": "22-09-2025",
+            "v2.1.0-nc": {
+                "date": "08-10-2025",
                 "maturity": "Integrated",
                 "bus": [
                     "WB"
@@ -62,7 +62,7 @@
                     "1.8"
                 ],
                 "draft": false,
-                "sha256": "d76d6cb467f122cde0aabc83734ba0c37381ef2bce091f5772721e71491d19d8"
+                "sha256": "941971a91016bb46a9b6107bbfe91af98ee59c392727e258a1e68d3564962f2d"
             }
         }
     },
@@ -2793,7 +2793,7 @@
         ],
         "release": {
             "v2.1.0-nc": {
-                "date": "10-08-2025",
+                "date": "08-10-2025",
                 "maturity": "Integrated",
                 "bus": [
                     "generic"
