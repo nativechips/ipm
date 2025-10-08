@@ -2776,7 +2776,7 @@
     },
     "CF_TMR32": {
         "description": "A 32-bit timer and PWM generator",
-        "repo": "github.com/chipfoundry/CF_TMR32",
+        "repo": "github.com/nativechips/CF_TMR32",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "ChipFoundry, a DBA of Umbralogic Technologies LLC",
@@ -2792,8 +2792,8 @@
             "periodic"
         ],
         "release": {
-            "v2.0.0": {
-                "date": "10-07-2025",
+            "v2.1.0-nc": {
+                "date": "10-08-2025",
                 "maturity": "Integrated",
                 "bus": [
                     "generic"
@@ -2807,7 +2807,7 @@
                     "n/a"
                 ],
                 "draft": true,
-                "sha256": "1fc38a9ecdc7540237d90e2d4deb7f2f165fd9ee189d4026ee43ccf110ff6a7c"
+                "sha256": "97b3358e6f5c375a579ac554508fdef1972ead65b58cf28855905fd2da0cf02e"
             }
         }
     },
