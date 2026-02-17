@@ -1312,7 +1312,7 @@
         }
     },
     "EF_ADCS1008A": {
-        "description":"A digital controller for EF_ADCS1008NC, 8 Channel 10-bit SAR ADC",
+        "description": "A digital controller for EF_ADCS1008NC, 8 Channel 10-bit SAR ADC",
         "repo": "github.com/efabless/EF_ADCS1008A",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
@@ -3556,7 +3556,7 @@
                 "height": "0",
                 "cell_count": "0",
                 "clock_freq_mhz": "n/a",
-               "supply_voltage": [
+                "supply_voltage": [
                     "n/a"
                 ],
                 "draft": true,
@@ -3672,8 +3672,7 @@
             "v1.0.0": {
                 "maturity": "Implemented",
                 "date": "30-09-2024",
-                "bus": [
-                ],
+                "bus": [],
                 "type": "soft",
                 "width": "0",
                 "height": "0",
@@ -3684,6 +3683,502 @@
                 ],
                 "draft": true,
                 "sha256": "c0ae31fb4252e40d4237623558d70e0fee1239e1c29f1e2ff906f1763f2aa690"
+            }
+        }
+    },
+    "NC_AES": {
+        "description": "Hardware AES (Advanced Encryption Standard) accelerator implementing  NIST FIPS 197 symmetric block cipher. Supports 128-bit and 256-bit keys  with encryption and decryption capabilities. Iterative implementation  processes one 128-bit block at a time with 4 parallel S-boxes.",
+        "repo": "github.com/nativechips/NC_AES",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "security",
+            "crypto"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7232a30f3e28c13d2eb0a47dcbc912a6002f785c37c1e6424d3e050d48b762aa"
+            }
+        }
+    },
+    "NC_CRC": {
+        "description": "Configurable CRC (Cyclic Redundancy Check) accelerator with support for 7/8/16/32-bit polynomials, programmable seeds, bit/byte reversal, output XOR masking, input FIFO buffering, and DMA support for high-throughput data integrity verification",
+        "repo": "github.com/nativechips/NC_CRC",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "integrity",
+            "checksum"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "dd7f9874f1ed5eb37ac0d8f8230b07b6fccb394298f65f8295538c6653e1728c"
+            }
+        }
+    },
+    "NC_DMAC": {
+        "description": "6-Channel DMA Controller with integrated DMAMUX for Cortex-M0+ microcontrollers. Supports memory-to-memory, memory-to-peripheral, and peripheral-to-memory transfers with 8/16/32-bit data widths, circular buffer mode, and priority arbitration.",
+        "repo": "github.com/nativechips/NC_DMAC",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "dma",
+            "data-transfer"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f1eb6b2239b1acc839595c28bd8d1ed00275cabae52dfa4c37fc560f3d01888b"
+            }
+        }
+    },
+    "NC_GPIO": {
+        "description": "16-pin GPIO controller with 4 operational modes (Input, Output, Alternate Function, Analog), atomic bit manipulation, per-pin interrupt generation, and configuration lock mechanism. Designed for Cortex-M0+ microcontrollers with APB3 slave interface.",
+        "repo": "github.com/nativechips/NC_GPIO",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "gpio"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "269cc0168e6187c000cd2f4dd4b930a834622c06fa6eead848049bd04b6a06d7"
+            }
+        }
+    },
+    "NC_I2C": {
+        "description": "APB3-wrapped I2C master supporting 7-bit addressing, start/repeated start/stop generation, single-byte read/write, and write-multiple transactions. Includes prescale divider and sticky missed-ACK indication.",
+        "repo": "github.com/nativechips/NC_I2C",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "comm"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "ca81f14414ed2118a6442203b4d9389d600b4735bc7122baa461492e5932019c"
+            }
+        }
+    },
+    "NC_I2S": {
+        "description": "Full-duplex I2S audio interface controller with Voice Activity Detection (VAD) for low-power always-listening applications. Supports I2S Philips, MSB/LSB-justified, and PCM formats with configurable data widths (16/24/32-bit) and sample rates (8-96 kHz).",
+        "repo": "github.com/nativechips/NC_I2S",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "audio"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "db54c482066da90a4ffd185c02c52aa2debf5ebc870e65866149073d54891f6e"
+            }
+        }
+    },
+    "NC_IP_UTIL": {
+        "description": "Common IP utility modules and components for NativeChips IPs",
+        "repo": "github.com/nativechips/NC_IP_UTIL",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "utility",
+            "common"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "be72500b0714d5b87f09d9b99995ff4405746c3a45b052c8a9c5f50a1121a34b"
+            }
+        }
+    },
+    "NC_PWM": {
+        "description": "Advanced PWM Timer with 16-bit counter, 4 PWM channels, complementary outputs, dead-time generator, and break input",
+        "repo": "github.com/nativechips/NC_PWM",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "timer"
+        ],
+        "release": {
+            "v2.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "42d2f0c7e376c2eb6e60440b7952063f44ca9d6429356a3668ae7f3f325018c8"
+            }
+        }
+    },
+    "NC_RTC": {
+        "description": "Hardware real-time clock (RTC) with BCD calendar, dual programmable alarms, periodic wakeup timer, timestamp capture, tamper detection, backup registers, smooth digital calibration, and comprehensive low-power support. The RTC is driven by an external 32.768 kHz clock and provides a 1 Hz calendar tick through a dual prescaler chain (7-bit asynchronous + 15-bit synchronous).",
+        "repo": "github.com/nativechips/NC_RTC",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "timer"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "92e33e64e340c6c3c79e2a5dc56ab07b5f2157b28801d8221859c260a6461009"
+            }
+        }
+    },
+    "NC_SHA256": {
+        "description": "Hardware accelerator for SHA-256 and SHA-224 cryptographic hash functions as specified in FIPS 180-4. The core processes 512-bit message blocks and produces 256-bit (SHA-256) or 224-bit (SHA-224) digest outputs. Note: The core does NOT implement padding - the caller is expected to handle message padding according to the SHA specification.",
+        "repo": "github.com/nativechips/NC_SHA256",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "security",
+            "crypto"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a8785a66840fb0a070dd2e3c0fc8c2173601cd35651fba1169c7dda4b945333c"
+            }
+        }
+    },
+    "NC_SPI": {
+        "description": "Full-duplex SPI master controller with configurable frame size, clock polarity/phase, hardware chip select, 8-entry TX/RX FIFOs, programmable thresholds, interrupt and DMA support for Cortex-M0+ microcontrollers",
+        "repo": "github.com/nativechips/NC_SPI",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "comm"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "fc584a0f6726d11cddde6186a2c48b4ba13c8979fc5f362d791aa08dc56f7c35"
+            }
+        }
+    },
+    "NC_TMR": {
+        "description": "32-bit General Purpose Timer with Capture/Compare, PWM, and Encoder Interface",
+        "repo": "github.com/nativechips/NC_TMR",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "timer"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "186bff3748f1f109ca9dca8d5f062f6c0327b1b396cd6d374f22ca8fcd7274fd"
+            }
+        }
+    },
+    "NC_UART": {
+        "description": "Universal Asynchronous Receiver/Transmitter (UART) controller with full-duplex operation, configurable frame format, FIFO buffers, DMA support, and interrupt generation",
+        "repo": "github.com/nativechips/NC_UART",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "comm"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "abdca0d494a2f6bcb1aadae7bb30f216aea77554d7d6bc5c341b07803343f8c7"
+            }
+        }
+    },
+    "NC_WWDT": {
+        "description": "Windowed watchdog timer with APB3 slave interface. Provides configurable prescaler and window thresholds, early warning interrupt, and optional watchdog reset output.",
+        "repo": "github.com/nativechips/NC_WWDT",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "watchdog"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "816b74e8c7c16330f29d31385dab3d965e15d11d3cf197f97d9a4f67a22575be"
+            }
+        }
+    },
+    "NC_XIP": {
+        "description": "AHB-Lite XiP controller for external Quad I/O SPI flash with direct-mapped read-only cache and a keyed bit-bang programmer. XiP reads are at A[24]=0 and programmer registers are at A[24]=1. Flash bus defaults to XiP on reset.",
+        "repo": "github.com/nativechips/NC_XIP",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "memory",
+            "flash"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "e6234b9768ba4b6aa4f8c64571c268eb957ef83f76b74bff44e3a13ed99a00a6"
             }
         }
     }
