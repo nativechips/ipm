@@ -3733,6 +3733,40 @@
                 ],
                 "draft": false,
                 "sha256": "009158d93eb752b55eddcb04b0c3289a8c42f0b8137014ce718afab9765db924"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9bd067fe8752bf48c287ed60387f2f4bbb99a7c7ba75a45f1803342fee6ddd08"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0a2198bef57f817c8cd4234fb081912118e8e6a0530fdafa28bcbafb59531e80"
             }
         }
     },
@@ -3783,6 +3817,40 @@
                 ],
                 "draft": false,
                 "sha256": "31ca0b1200385baf022e838a87c4ca33a702f7b66a9552708116792a75d32bd2"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a458b997e083962b46d28fab1b7fe2c523940ade7283f814e6844acf389f9c2f"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f65ea5b2de3d9b7c68f2781e69106163ac740c15c8987077605a55800c34e6ba"
             }
         }
     },
@@ -3835,6 +3903,42 @@
                 ],
                 "draft": false,
                 "sha256": "0fb43f6dd93ba1ab3a02d51d4acbcb33e1cce066f64e53e7f1bb07d8b3057d09"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0ad82a53b5996198411ebc13544369756c33077ca0e91e9532e3966f45883766"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "3b50ef9fa6c34bdafc3f46aea04e3d0bd57db69ab647c0646c9904f59216d4b6"
             }
         }
     },
@@ -3885,6 +3989,40 @@
                 ],
                 "draft": false,
                 "sha256": "f8f047ef5c6031e8760616c7b3b6328825b093a6b72e97117167bd93061b814e"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4820b470daf3ca31ebfce4d2fb85c0262d65c6a3b177e9453c5243b5d8021d2e"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "10ea53f26864893fc5800583f85a1ed19e8af71591a5170965a862881dc36e9e"
             }
         }
     },
@@ -3935,6 +4073,40 @@
                 ],
                 "draft": false,
                 "sha256": "054a20b98dc97c26e6310b2d88b259d277d320aa5eec03c80331d10cbb3f4cdd"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "e245580540165fc08bb1bc9a2afb012e166984482db1e0b1b1b61a7a31560665"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "73cfa05747d585acbf44059333e73e7d968a273335546ea0a0ea8559de0e8bff"
             }
         }
     },
@@ -3985,41 +4157,8 @@
                 ],
                 "draft": false,
                 "sha256": "b460609d05362f675b3b339278a60972f930f84cf0e08ec2e923e7581fc57ac7"
-            }
-        }
-    },
-    "NC_IP_UTIL": {
-        "description": "Common IP utility modules and components for NativeChips IPs",
-        "repo": "github.com/nativechips/NC_IP_UTIL",
-        "author": "NativeChips.ai",
-        "email": "shalan@nativechips.ai",
-        "owner": "NativeChips.ai",
-        "category": "digital",
-        "technology": "n/a",
-        "license": "Apache 2.0",
-        "tags": [
-            "utility",
-            "common"
-        ],
-        "release": {
-            "v1.0.0": {
-                "date": "02-17-2026",
-                "maturity": "Verified",
-                "bus": [
-                    "APB"
-                ],
-                "type": "soft",
-                "width": "0",
-                "height": "0",
-                "cell_count": "0",
-                "clock_freq_mhz": "0",
-                "supply_voltage": [
-                    "n/a"
-                ],
-                "draft": false,
-                "sha256": "be72500b0714d5b87f09d9b99995ff4405746c3a45b052c8a9c5f50a1121a34b"
             },
-            "v1.1.0": {
+            "v1.2.0": {
                 "date": "02-17-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4028,13 +4167,30 @@
                 "type": "soft",
                 "width": "0",
                 "height": "0",
-                "cell_count": "0",
-                "clock_freq_mhz": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
                 "supply_voltage": [
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "0ffd73f682bd911e8e958cc2c33803d592153802f06b03e02c7881cd3da6dac1"
+                "sha256": "bd356a8c5175d50ddae538db86f82bcbcb4796f5190a3d1ecf00e91c5b76d2cf"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "74a406b2af38e7335bd7f5776a081f17db5a8968d66da3aa19466acf8501c74a"
             }
         }
     },
@@ -4085,6 +4241,40 @@
                 ],
                 "draft": false,
                 "sha256": "1c17b1f18ef07c5ceb540eb7c3504f35617f7a11a3ec7309a0c5f7c2156eed0c"
+            },
+            "v2.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "720740ba2ee840cbbe82a4da8874b98dbb2ec28901834ad66f5fe81cec7597fc"
+            },
+            "v2.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9d988a0dbb285661290751af1b88c5cd7266e8d0a31029de1a8259c0131380e8"
             }
         }
     },
@@ -4135,6 +4325,40 @@
                 ],
                 "draft": false,
                 "sha256": "4df2e845c2616bef05dbd7bbbaeb2e6c184ce2b8ecdd9d106b3d9e52056f20b6"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "371bd5b537cd394cc60d7875a17e5f56454e14996a2730d50aa102703d552c91"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "65a4575e875f5b625874e6e514d4af93bf22efe569b25e894bd31b6c36f67dc8"
             }
         }
     },
@@ -4185,6 +4409,40 @@
                 ],
                 "draft": false,
                 "sha256": "1436b12beff82a9373d88c6b30281767d05243a7597a817dff94d4a8c74f2854"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "724bf239695556d421035e97e3dbc3b450c6260ff67dbecc97634fd52b10ede8"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7da376aef0811c93d431c2db300884ab49b879bb146be9053dfa2d1e70baab4d"
             }
         }
     },
@@ -4235,6 +4493,40 @@
                 ],
                 "draft": false,
                 "sha256": "a1d73e4994d3e775d7a5337bd0e1a09ec068be1861029e4cf68c241d7e49ed81"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9ff9b4902296949ffc4814f9df742ed4d1361718824413e014838f6bca3d5372"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a36b8fe092d894afd70b50bab9ec9c8f6d9de553f28c7ec328449b6a570ad1bb"
             }
         }
     },
@@ -4285,6 +4577,40 @@
                 ],
                 "draft": false,
                 "sha256": "d6137e49028cc06d53fec0302a890c79ef2a31950d950a9b4ba9f66235bd25c0"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "46ba7362f9d30c3342efec829a4f57ceb74d1daf27c5337b26a4a88fb315c37c"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7ec8e9c137f3946ab47172af8e7727db5e1558728d320922332c6c0a617d9db0"
             }
         }
     },
@@ -4335,6 +4661,40 @@
                 ],
                 "draft": false,
                 "sha256": "5a9e2f3ba330f85b53c45f9a7a35c70269562c181775af0a5c1ce0dcba6d72b6"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "1df27873c5b3cfc140088b136d0be0721391150586cd3e7fc9339c096076ce9f"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9b0f918f0788efac9b7819ebcffb90fe25ac2dfba868f870eeba83177cc1681f"
             }
         }
     },
@@ -4385,6 +4745,40 @@
                 ],
                 "draft": false,
                 "sha256": "a759ebe7479567fad57858c253f5fbf2226afbfc910391e75fa059b528a2bf70"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0855293cad6559d45160c8c9dcbb29b20ac5800344c3cb0085cc4a4bf59f00a3"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "b8442207931edcdbd72eae51407726acb6aade9970631056bc47e8df4bc3fe91"
             }
         }
     },
@@ -4435,6 +4829,124 @@
                 ],
                 "draft": false,
                 "sha256": "82f2fdb85729e198070b71ba54f4a71c043d14d33cd5a12cc060e9633496ff36"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "575ebc055defb953df3fbd6cfd8957fe261a33ae3ec99511357584fa5de8f120"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4ce12c819a6682468b6db8302207fa26f91fb00c8a2448d637d8dbdbb72ff9b1"
+            }
+        }
+    },
+    "NC_COMMON": {
+        "description": "Common IP utility modules and components for NativeChips IPs",
+        "repo": "github.com/nativechips/NC_COMMON",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "utility",
+            "common"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "be72500b0714d5b87f09d9b99995ff4405746c3a45b052c8a9c5f50a1121a34b"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0ffd73f682bd911e8e958cc2c33803d592153802f06b03e02c7881cd3da6dac1"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "3122d50526eec897ed50b39413896e1189d852e3a0633da2d78e502102c157db"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9eb02cbecabdb20e1c002d63fcff673d60463aa69a19d522b8839085a8d79817"
             }
         }
     }
