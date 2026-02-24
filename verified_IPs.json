@@ -63,6 +63,23 @@
                 ],
                 "draft": false,
                 "sha256": "5cfd4883de31f9b4f8c70665b2fe102ec9664db47b777b77479054f86fe92967"
+            },
+            "v2.2.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "WB"
+                ],
+                "type": "hard",
+                "width": "387.87",
+                "height": "303.315",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "1.8"
+                ],
+                "draft": false,
+                "sha256": "e480c20e438ad7b14766d94c69cd9f62d26780a056ec40d9dca9260b42791ece"
             }
         }
     },
@@ -241,7 +258,7 @@
     },
     "CF_UART": {
         "description": "UART with a programmable baud rate generator and RX/TX FIFOs",
-        "repo": "github.com/chipfoundry/CF_UART",
+        "repo": "github.com/nativechips/CF_UART",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Efabless Corp.",
@@ -286,6 +303,23 @@
                 ],
                 "draft": false,
                 "sha256": "257c87078ed44138fb97034487b7580a705a548fa5a666ce5d048b290db7dac8"
+            },
+            "v2.1.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "verified",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0.0",
+                "height": "0.0",
+                "cell_count": "1590",
+                "clock_freq_mhz": "277",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9a139fe7e6dea8514d34772eb86a48b98e16a67b18c26fbf33e6ea0391999319"
             }
         }
     },
@@ -903,7 +937,7 @@
     },
     "EF_AES": {
         "description": "Verilog implementation of the symmetric block cipher AES (Advanced Encryption Standard) as specified in NIST FIPS 197. This implementation supports 128 and 256 bit keys.",
-        "repo": "github.com/efabless/EF_AES",
+        "repo": "github.com/nativechips/EF_AES",
         "author": "Joachim Strombergson",
         "email": "",
         "owner": "secworks",
@@ -932,6 +966,23 @@
                 ],
                 "draft": true,
                 "sha256": "32846c7cccc1ca3c4e59792a2d1cb14078ca9b44ef27a8d9afa4eb23cfa2fe4e"
+            },
+            "v1.2.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "40",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "52399d9e9eecc367ab55ca8b5e8a0e0d10da1882c9f920932847ec147b948588"
             }
         }
     },
@@ -1005,7 +1056,7 @@
     },
     "EF_SHA256": {
         "description": "Hardware implementation of the SHA-256 cryptographic hash function.",
-        "repo": "github.com/efabless/EF_SHA256",
+        "repo": "github.com/nativechips/EF_SHA256",
         "author": "Joachim Strombergson",
         "email": "",
         "owner": "secworks",
@@ -1034,6 +1085,23 @@
                 ],
                 "draft": true,
                 "sha256": "6b0f58460193efc5e6f3b98873b07917d8f3086d17c10b4db72621d13aa64917"
+            },
+            "v1.2.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "40",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f27307ac83224b57db8eeffd4188cb18eaf10aab47fd8c03a13ee09305aaca5c"
             }
         }
     },
@@ -1312,7 +1380,7 @@
         }
     },
     "EF_ADCS1008A": {
-        "description":"A digital controller for EF_ADCS1008NC, 8 Channel 10-bit SAR ADC",
+        "description": "A digital controller for EF_ADCS1008NC, 8 Channel 10-bit SAR ADC",
         "repo": "github.com/efabless/EF_ADCS1008A",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
@@ -2587,7 +2655,7 @@
     },
     "CF_I2S": {
         "description": "I2S receiver with a FIFO",
-        "repo": "github.com/chipfoundry/CF_I2S",
+        "repo": "github.com/nativechips/CF_I2S",
         "email": "ip-admin@chipfoundry.io",
         "owner": "ChipFoundry, a DBA of Umbralogic Technologies LLC",
         "author": "Efabless Corp.",
@@ -2616,6 +2684,23 @@
                 ],
                 "draft": true,
                 "sha256": "48745ad278f7bafe7777306e85e5d1bfd2cfc6e2471339ab72ce67edae7011b3"
+            },
+            "v2.1.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2661",
+                "clock_freq_mhz": "10",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "40dd3a08a542d0c0554e3d18211310a44107c4836e4fef03ea1722236723f612"
             }
         }
     },
@@ -2741,7 +2826,7 @@
     },
     "CF_I2C": {
         "description": "I2C master controller with an APB interface",
-        "repo": "github.com/chipfoundry/CF_I2C",
+        "repo": "github.com/nativechips/CF_I2C",
         "author": "ChipFoundry, a DBA of Umbralogic Technologies LLC",
         "email": "ip-admin@chipfoundry.io",
         "owner": "ChipFoundry, a DBA of Umbralogic Technologies LLC",
@@ -2771,6 +2856,24 @@
                 ],
                 "draft": true,
                 "sha256": "cc0a7dde2631b7c905627846181749bac1649a7e38f7c66fb963404ca66d54d4"
+            },
+            "v2.1.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "APB",
+                    "WB"
+                ],
+                "type": "soft",
+                "width": "0.0",
+                "height": "0.0",
+                "cell_count": "0",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "1358c896e0db5d729d9adcfb0dcc8c5c6562aa493b3d5fe440af52bb3553024d"
             }
         }
     },
@@ -2808,12 +2911,29 @@
                 ],
                 "draft": true,
                 "sha256": "a0b9d6c412f7332039a55582581d51ea934f4471b57d607880a3cb53ba89b1bf"
+            },
+            "v2.2.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0.0",
+                "height": "0.0",
+                "cell_count": "797",
+                "clock_freq_mhz": "163",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "2eedf75de9084f1599a38a732f743338fe67130ce6df5d3df0c3c70098746e2d"
             }
         }
     },
     "CF_SPI": {
         "description": "SPI master controller with receive and transmit FIFOs.",
-        "repo": "github.com/chipfoundry/CF_SPI",
+        "repo": "github.com/nativechips/CF_SPI",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Efabless Corp",
@@ -2859,6 +2979,23 @@
                 ],
                 "draft": false,
                 "sha256": "4e2b5fdcd5930a394c26b9fdc36df28a21695593f7f62f18f72e66564b016d66"
+            },
+            "v2.1.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Integrated",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0.0",
+                "height": "0.0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4a4d5c2d8594f9751eae3a14a6a67d15aecfefa221e8ce9b842850d02587409f"
             }
         }
     },
@@ -3287,7 +3424,7 @@
     },
     "sky130_ef_ip__adc3v_12bit": {
         "description": "ADC3V 12-bit IP",
-        "repo": "github.com/efabless/sky130_ef_ip__adc3v_12bit",
+        "repo": "github.com/nativechips/sky130_ef_ip__adc3v_12bit",
         "author": "Efabless Corp.",
         "email": "ip-admin@chipfoundry.io",
         "owner": "Efabless Corp.",
@@ -3313,6 +3450,21 @@
                 ],
                 "draft": true,
                 "sha256": "7d95ec78d9f8090782cd65fd623d10a74c2dbabd17ab8b0aa92f3f80d1598149"
+            },
+            "v1.1.0-nc": {
+                "date": "02-24-2026",
+                "maturity": "Implemented",
+                "bus": [],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "n/a",
+                "clock_freq_mhz": "n/a",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "c6d6f1ba43c3a0e138081901602b1d127240ba5b5a7485ed7cab625038c7f465"
             }
         }
     },
@@ -3556,7 +3708,7 @@
                 "height": "0",
                 "cell_count": "0",
                 "clock_freq_mhz": "n/a",
-               "supply_voltage": [
+                "supply_voltage": [
                     "n/a"
                 ],
                 "draft": true,
@@ -3672,8 +3824,7 @@
             "v1.0.0": {
                 "maturity": "Implemented",
                 "date": "30-09-2024",
-                "bus": [
-                ],
+                "bus": [],
                 "type": "soft",
                 "width": "0",
                 "height": "0",
@@ -3684,6 +3835,1678 @@
                 ],
                 "draft": true,
                 "sha256": "c0ae31fb4252e40d4237623558d70e0fee1239e1c29f1e2ff906f1763f2aa690"
+            }
+        }
+    },
+    "NC_AES": {
+        "description": "Hardware AES (Advanced Encryption Standard) accelerator implementing  NIST FIPS 197 symmetric block cipher. Supports 128-bit and 256-bit keys  with encryption and decryption capabilities. Iterative implementation  processes one 128-bit block at a time with 4 parallel S-boxes.",
+        "repo": "github.com/nativechips/NC_AES",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "security",
+            "crypto"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7232a30f3e28c13d2eb0a47dcbc912a6002f785c37c1e6424d3e050d48b762aa"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "009158d93eb752b55eddcb04b0c3289a8c42f0b8137014ce718afab9765db924"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9bd067fe8752bf48c287ed60387f2f4bbb99a7c7ba75a45f1803342fee6ddd08"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0a2198bef57f817c8cd4234fb081912118e8e6a0530fdafa28bcbafb59531e80"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "28637",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "80f8a368247ada99e98b54d652997ca24b25b6fd34351c09b817900e45d63721"
+            }
+        }
+    },
+    "NC_CRC": {
+        "description": "Configurable CRC (Cyclic Redundancy Check) accelerator with support for 7/8/16/32-bit polynomials, programmable seeds, bit/byte reversal, output XOR masking, input FIFO buffering, and DMA support for high-throughput data integrity verification",
+        "repo": "github.com/nativechips/NC_CRC",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "integrity",
+            "checksum"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "dd7f9874f1ed5eb37ac0d8f8230b07b6fccb394298f65f8295538c6653e1728c"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "31ca0b1200385baf022e838a87c4ca33a702f7b66a9552708116792a75d32bd2"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a458b997e083962b46d28fab1b7fe2c523940ade7283f814e6844acf389f9c2f"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f65ea5b2de3d9b7c68f2781e69106163ac740c15c8987077605a55800c34e6ba"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2852",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "e0bec1c0c36092f7738c4f653e89cd0d2bc35e387c5f8736ca009c835215b123"
+            }
+        }
+    },
+    "NC_DMAC": {
+        "description": "6-Channel DMA Controller with integrated DMAMUX for Cortex-M0+ microcontrollers. Supports memory-to-memory, memory-to-peripheral, and peripheral-to-memory transfers with 8/16/32-bit data widths, circular buffer mode, and priority arbitration.",
+        "repo": "github.com/nativechips/NC_DMAC",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "dma",
+            "data-transfer"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f1eb6b2239b1acc839595c28bd8d1ed00275cabae52dfa4c37fc560f3d01888b"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0fb43f6dd93ba1ab3a02d51d4acbcb33e1cce066f64e53e7f1bb07d8b3057d09"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0ad82a53b5996198411ebc13544369756c33077ca0e91e9532e3966f45883766"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "3b50ef9fa6c34bdafc3f46aea04e3d0bd57db69ab647c0646c9904f59216d4b6"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15092",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "dc681d0a610ed6925ada49f963278acf6ebbd7373293f7a65a25ff60fa3e486c"
+            }
+        }
+    },
+    "NC_GPIO": {
+        "description": "16-pin GPIO controller with 4 operational modes (Input, Output, Alternate Function, Analog), atomic bit manipulation, per-pin interrupt generation, and configuration lock mechanism. Designed for Cortex-M0+ microcontrollers with APB3 slave interface.",
+        "repo": "github.com/nativechips/NC_GPIO",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "gpio"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "269cc0168e6187c000cd2f4dd4b930a834622c06fa6eead848049bd04b6a06d7"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f8f047ef5c6031e8760616c7b3b6328825b093a6b72e97117167bd93061b814e"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4820b470daf3ca31ebfce4d2fb85c0262d65c6a3b177e9453c5243b5d8021d2e"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "10ea53f26864893fc5800583f85a1ed19e8af71591a5170965a862881dc36e9e"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "6e9ca26ad3319ea9d3a9ddfce8c2719672b7a6c4f28628152503bdbd2ae9acad"
+            }
+        }
+    },
+    "NC_I2C": {
+        "description": "APB3-wrapped I2C master supporting 7-bit addressing, start/repeated start/stop generation, single-byte read/write, and write-multiple transactions. Includes prescale divider and sticky missed-ACK indication.",
+        "repo": "github.com/nativechips/NC_I2C",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "comm"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "ca81f14414ed2118a6442203b4d9389d600b4735bc7122baa461492e5932019c"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "054a20b98dc97c26e6310b2d88b259d277d320aa5eec03c80331d10cbb3f4cdd"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "e245580540165fc08bb1bc9a2afb012e166984482db1e0b1b1b61a7a31560665"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "73cfa05747d585acbf44059333e73e7d968a273335546ea0a0ea8559de0e8bff"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "932",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a368721e9f8a2096d8c6e4ba71aa1601fb20bfba6a73443839179ee7ceacd05c"
+            }
+        }
+    },
+    "NC_I2S": {
+        "description": "Full-duplex I2S audio interface controller with Voice Activity Detection (VAD) for low-power always-listening applications. Supports I2S Philips, MSB/LSB-justified, and PCM formats with configurable data widths (16/24/32-bit) and sample rates (8-96 kHz).",
+        "repo": "github.com/nativechips/NC_I2S",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "audio"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "db54c482066da90a4ffd185c02c52aa2debf5ebc870e65866149073d54891f6e"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "b460609d05362f675b3b339278a60972f930f84cf0e08ec2e923e7581fc57ac7"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "bd356a8c5175d50ddae538db86f82bcbcb4796f5190a3d1ecf00e91c5b76d2cf"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "74a406b2af38e7335bd7f5776a081f17db5a8968d66da3aa19466acf8501c74a"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6250",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "446f39709e8c9add1e7669c67daf15a2f08e945afa8687bafa51519b66ffb16f"
+            }
+        }
+    },
+    "NC_PWM": {
+        "description": "Advanced PWM Timer with 16-bit counter, 4 PWM channels, complementary outputs, dead-time generator, and break input",
+        "repo": "github.com/nativechips/NC_PWM",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "timer"
+        ],
+        "release": {
+            "v2.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "42d2f0c7e376c2eb6e60440b7952063f44ca9d6429356a3668ae7f3f325018c8"
+            },
+            "v2.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "1c17b1f18ef07c5ceb540eb7c3504f35617f7a11a3ec7309a0c5f7c2156eed0c"
+            },
+            "v2.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "720740ba2ee840cbbe82a4da8874b98dbb2ec28901834ad66f5fe81cec7597fc"
+            },
+            "v2.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9d988a0dbb285661290751af1b88c5cd7266e8d0a31029de1a8259c0131380e8"
+            },
+            "v2.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "c1983b3be72842ec31dbabe641af6d44b0573eec6be549e1a6dac0235877c76d"
+            }
+        }
+    },
+    "NC_RTC": {
+        "description": "Hardware real-time clock (RTC) with BCD calendar, dual programmable alarms, periodic wakeup timer, timestamp capture, tamper detection, backup registers, smooth digital calibration, and comprehensive low-power support. The RTC is driven by an external 32.768 kHz clock and provides a 1 Hz calendar tick through a dual prescaler chain (7-bit asynchronous + 15-bit synchronous).",
+        "repo": "github.com/nativechips/NC_RTC",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "timer"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "92e33e64e340c6c3c79e2a5dc56ab07b5f2157b28801d8221859c260a6461009"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4df2e845c2616bef05dbd7bbbaeb2e6c184ce2b8ecdd9d106b3d9e52056f20b6"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "371bd5b537cd394cc60d7875a17e5f56454e14996a2730d50aa102703d552c91"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "65a4575e875f5b625874e6e514d4af93bf22efe569b25e894bd31b6c36f67dc8"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "8400",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "f879da9692ee2fa0900af91448be4057709b1876516c44a88bb6ff614bf2d06c"
+            }
+        }
+    },
+    "NC_SHA256": {
+        "description": "Hardware accelerator for SHA-256 and SHA-224 cryptographic hash functions as specified in FIPS 180-4. The core processes 512-bit message blocks and produces 256-bit (SHA-256) or 224-bit (SHA-224) digest outputs. Note: The core does NOT implement padding - the caller is expected to handle message padding according to the SHA specification.",
+        "repo": "github.com/nativechips/NC_SHA256",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "security",
+            "crypto"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a8785a66840fb0a070dd2e3c0fc8c2173601cd35651fba1169c7dda4b945333c"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "1436b12beff82a9373d88c6b30281767d05243a7597a817dff94d4a8c74f2854"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "724bf239695556d421035e97e3dbc3b450c6260ff67dbecc97634fd52b10ede8"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7da376aef0811c93d431c2db300884ab49b879bb146be9053dfa2d1e70baab4d"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "15057",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "54acd7fa48e68059d624796a27331203c871d2040f57ca2a6143dd11694a0df3"
+            }
+        }
+    },
+    "NC_SPI": {
+        "description": "Full-duplex SPI master controller with configurable frame size, clock polarity/phase, hardware chip select, 8-entry TX/RX FIFOs, programmable thresholds, interrupt and DMA support for Cortex-M0+ microcontrollers",
+        "repo": "github.com/nativechips/NC_SPI",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "comm"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "fc584a0f6726d11cddde6186a2c48b4ba13c8979fc5f362d791aa08dc56f7c35"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a1d73e4994d3e775d7a5337bd0e1a09ec068be1861029e4cf68c241d7e49ed81"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9ff9b4902296949ffc4814f9df742ed4d1361718824413e014838f6bca3d5372"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a36b8fe092d894afd70b50bab9ec9c8f6d9de553f28c7ec328449b6a570ad1bb"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "3300",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "093bdf3cf18340a35e115fce0c583b757078bb225f0483246f6efd48dc18a732"
+            }
+        }
+    },
+    "NC_TMR": {
+        "description": "32-bit General Purpose Timer with Capture/Compare, PWM, and Encoder Interface",
+        "repo": "github.com/nativechips/NC_TMR",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "timer"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "186bff3748f1f109ca9dca8d5f062f6c0327b1b396cd6d374f22ca8fcd7274fd"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "d6137e49028cc06d53fec0302a890c79ef2a31950d950a9b4ba9f66235bd25c0"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "46ba7362f9d30c3342efec829a4f57ceb74d1daf27c5337b26a4a88fb315c37c"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7ec8e9c137f3946ab47172af8e7727db5e1558728d320922332c6c0a617d9db0"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "6387",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "b7b530ca78332f000be8bd0d8aa2056ccb8269d00c1d8dd0704f42fb8c7bcb42"
+            }
+        }
+    },
+    "NC_UART": {
+        "description": "Universal Asynchronous Receiver/Transmitter (UART) controller with full-duplex operation, configurable frame format, FIFO buffers, DMA support, and interrupt generation",
+        "repo": "github.com/nativechips/NC_UART",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "comm"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "abdca0d494a2f6bcb1aadae7bb30f216aea77554d7d6bc5c341b07803343f8c7"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "5a9e2f3ba330f85b53c45f9a7a35c70269562c181775af0a5c1ce0dcba6d72b6"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "1df27873c5b3cfc140088b136d0be0721391150586cd3e7fc9339c096076ce9f"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9b0f918f0788efac9b7819ebcffb90fe25ac2dfba868f870eeba83177cc1681f"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "6c42e1f70fa4885727aeeec5412d9399560509e8cda013b650ec3a4b77cf18b4"
+            }
+        }
+    },
+    "NC_WWDT": {
+        "description": "Windowed watchdog timer with APB3 slave interface. Provides configurable prescaler and window thresholds, early warning interrupt, and optional watchdog reset output.",
+        "repo": "github.com/nativechips/NC_WWDT",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "peripheral",
+            "watchdog"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "816b74e8c7c16330f29d31385dab3d965e15d11d3cf197f97d9a4f67a22575be"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "a759ebe7479567fad57858c253f5fbf2226afbfc910391e75fa059b528a2bf70"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0855293cad6559d45160c8c9dcbb29b20ac5800344c3cb0085cc4a4bf59f00a3"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "b8442207931edcdbd72eae51407726acb6aade9970631056bc47e8df4bc3fe91"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "469",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "15181a27a14d54cf8859f0d9a01cba67bbcb7583a9e3ed527c6993e667afe367"
+            }
+        }
+    },
+    "NC_XIP": {
+        "description": "AHB-Lite XiP controller for external Quad I/O SPI flash with direct-mapped read-only cache and a keyed bit-bang programmer. XiP reads are at A[24]=0 and programmer registers are at A[24]=1. Flash bus defaults to XiP on reset.",
+        "repo": "github.com/nativechips/NC_XIP",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "memory",
+            "flash"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "e6234b9768ba4b6aa4f8c64571c268eb957ef83f76b74bff44e3a13ed99a00a6"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "82f2fdb85729e198070b71ba54f4a71c043d14d33cd5a12cc060e9633496ff36"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "575ebc055defb953df3fbd6cfd8957fe261a33ae3ec99511357584fa5de8f120"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4ce12c819a6682468b6db8302207fa26f91fb00c8a2448d637d8dbdbb72ff9b1"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "11554",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "ce9ecd324b4c02bc9df7d0b242f1bfebcfb7b2f35e95d00e9c2d955b20499bff"
+            }
+        }
+    },
+    "NC_COMMON": {
+        "description": "Common IP utility modules and components for NativeChips IPs",
+        "repo": "github.com/nativechips/NC_COMMON",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "utility",
+            "common"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "be72500b0714d5b87f09d9b99995ff4405746c3a45b052c8a9c5f50a1121a34b"
+            },
+            "v1.1.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "0ffd73f682bd911e8e958cc2c33803d592153802f06b03e02c7881cd3da6dac1"
+            },
+            "v1.2.0": {
+                "date": "02-17-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "3122d50526eec897ed50b39413896e1189d852e3a0633da2d78e502102c157db"
+            },
+            "v1.3.0": {
+                "date": "02-18-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "9eb02cbecabdb20e1c002d63fcff673d60463aa69a19d522b8839085a8d79817"
+            },
+            "v1.4.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "4345325e32f23c3495b819f7faa4948cd7c413426a3d96a13964709412f2a969"
+            }
+        }
+    },
+    "NC_AMBA": {
+        "description": "Lightweight Verilog-2005 AMBA building blocks for MCU-class SoCs, including AHB-Lite crossbar components, AHB-to-APB bridge integration wrapper, and AHB-to-synchronous-SRAM bridges",
+        "repo": "github.com/nativechips/NC_AMBA",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "bus",
+            "interconnect"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "ab1867f2fa63f4370f51ed445c2f6be7fd668511ecebaba9b4609f4a796d8756"
+            },
+            "v1.1.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "7f8c20862811debd52167c3673f5ce8b43230d793c2199135b9d86b38724bdb8"
+            }
+        }
+    },
+    "NC_RV32": {
+        "description": "3-stage RV32IM/RV32IMC-capable CPU core family with optional debug wrapper and AHB-Lite interfaces. Supports single and dual-port variants with optional MSI and JTAG debug module.",
+        "repo": "github.com/nativechips/NC_RV32",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "cpu",
+            "processor"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "79ac9c3156d479335d7b87f8631c0bc9d9215623cd6add4784348b932b81708f"
+            },
+            "v1.1.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "293a1a726cf2e47b6866ba29c9d9f302c05a6c4bdd98f95c10692d034f3d0960"
+            }
+        }
+    },
+    "NC_SOCGEN": {
+        "description": "YAML-driven generator for the compute subsystem of MCU-class SoCs. Emits structural Verilog RTL, filelists, register specs, address/IRQ maps, and firmware bring-up packs.",
+        "repo": "github.com/nativechips/NC_SOCGEN",
+        "author": "NativeChips.ai",
+        "email": "shalan@nativechips.ai",
+        "owner": "NativeChips.ai",
+        "category": "digital",
+        "technology": "n/a",
+        "license": "Apache 2.0",
+        "tags": [
+            "generator",
+            "soc"
+        ],
+        "release": {
+            "v1.0.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "8e2cc9aec2dbd75c34b5606a2ba262eb73b8574552134e959a2dc2f7d57b6d3e"
+            },
+            "v1.1.0": {
+                "date": "02-24-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "generic"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "73f55c68f3ed6d3d23fca8f96274447f9f38412dc03ffa8e597cf7d0034e0082"
             }
         }
     }
