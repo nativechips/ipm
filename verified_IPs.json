@@ -4648,8 +4648,25 @@
                 "supply_voltage": [
                     "n/a"
                 ],
-                "draft": false,
+                "draft": true,
                 "sha256": "70c93228e6434e18cfe1c89db905cfd835b93784321c9cd92ee528d2cbf7caf2"
+            },
+            "v2.5.0": {
+                "date": "03-01-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "4100",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "ad470cb8991b0dca2c312934df6eb843de651cefa0d182a76518a6c76bb56c12"
             }
         }
     },
