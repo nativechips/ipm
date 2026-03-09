@@ -3954,7 +3954,7 @@
                 "draft": false,
                 "sha256": "52c80205285e71d4dae1843212c8e9d18c871fab1d76a213c9bc8794975a8818"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -3969,7 +3969,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "0062a3cd51272646dbb14bd0ec72b061589a4e875c8528d30019d4621e53b25d"
+                "sha256": "d2144a825b514d64506c251e751edab13150c3d5e6d9f0756afdf5c0a8c66de2"
             }
         }
     },
@@ -4089,7 +4089,7 @@
                 "draft": false,
                 "sha256": "d4f611ea4247d81bfc13f4a9848e583a5833e94cb844042ab24118a5f61fb3e2"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4104,7 +4104,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "818ae4ff7e3e49c8eb767340bb0111484d7f54b3341236d1d01ac505b2f81bf1"
+                "sha256": "71a6820d1d086d56a93598a785aaade0007e712542ff332e51bb9a887598b8d5"
             }
         }
     },
@@ -4230,7 +4230,7 @@
                 "draft": false,
                 "sha256": "1fbe7c1aa9e106b1dd0ed8a9fd25191944c7a9a08fcb4dcfd7be48523a20899e"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4246,7 +4246,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "06d7f73903480079f18cf918f5604f6c63c35a3ec1bddbcc4325ac70aa62e179"
+                "sha256": "450a855b3dbdc8e59fcd3ab89f6c3bbcb844e439c4d1c1e2d4198dedabc47299"
             }
         }
     },
@@ -4365,6 +4365,23 @@
                 ],
                 "draft": false,
                 "sha256": "dbe927d56a2b1924ffc2faa6efd09c474a2998b7ecbfaac9415d5be8dc5507aa"
+            },
+            "v1.6.0": {
+                "date": "03-09-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2891",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "42ad6b997b150c6bb643a618f65a94e7ba4dfa7c2670a2aa3716a8f54f320790"
             }
         }
     },
@@ -4484,7 +4501,7 @@
                 "draft": false,
                 "sha256": "8122536c8abf58aafcb6f93226ad3765ab3cf12eb920cee593ee68f60559c60b"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4499,7 +4516,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "58007adb685456ccee243d962ce4bfd24b9460e1838385fa5ef0ca50f0c72cce"
+                "sha256": "b4b3d62599e132e3e6c3545ff3c8d007c4a6811c32cc695fe0ad7f3d2ac00be3"
             }
         }
     },
@@ -4619,7 +4636,7 @@
                 "draft": false,
                 "sha256": "1e17293b39f88f06e66088c71869b2a0a5a63c1bf1c5e9e6b692633f2aac688e"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4634,7 +4651,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "695c4f9df041c76d393a8fada7c9952d97e3eb107ebd02edd664d06d818f5537"
+                "sha256": "85ac36c062a7c437c23978c11f04dc9d73790f009455c45fc0a057408500da00"
             }
         }
     },
@@ -4754,7 +4771,7 @@
                 "draft": false,
                 "sha256": "ad470cb8991b0dca2c312934df6eb843de651cefa0d182a76518a6c76bb56c12"
             },
-            "v2.0": {
+            "v2.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4769,7 +4786,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "5a60f3e5fedfec188687e8f65d8fbec0e5842ac84b547fd53e2e71c58253d422"
+                "sha256": "e063a1031ffe2cfda165dd4fa6a6b7fbb13b2324e8097a91dc72aa25416fa0fc"
             }
         }
     },
@@ -4889,7 +4906,7 @@
                 "draft": false,
                 "sha256": "cb47069fdbf3c9ba45ab41b0ed1e9c14cef863a42ea4528607a651316d27cdc4"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -4904,7 +4921,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "54ffbe877b2f95d87782e0a57d91fdd965279879f0683a95c689a439cc4b9768"
+                "sha256": "5f3d427ccd8ccd2f56bbd4a9937e7992a03af7ff5b5090f42d4a806001de5603"
             }
         }
     },
@@ -5024,7 +5041,7 @@
                 "draft": false,
                 "sha256": "b1b45fa0ce06bc6b831f1c1e7ccf5b6d5d86afb50d9ed38a69fb08620696759c"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -5039,7 +5056,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "04bf8b486f982363a1ccb7232d92dcec5d599279fce5b70d04976aaf1d9826cd"
+                "sha256": "d9f997a97438b37cf76d37b8401e8a5f1fcf1c3ea7509140c703908d89fc817a"
             }
         }
     },
@@ -5159,7 +5176,7 @@
                 "draft": false,
                 "sha256": "d2e8158a68714c4a77b2892b88b07f1b8383a22dbf33500d1afce33f0887fd5d"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -5174,7 +5191,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "83263c9ee673f65f7febdf9210b571c6a6222fd150c3f162ce396c6362c700be"
+                "sha256": "57a3ebb16edb50c6afc476c5f6f76e99cd64a81ae198ea8324e3f517f60bddc1"
             }
         }
     },
@@ -5294,7 +5311,7 @@
                 "draft": false,
                 "sha256": "e47915644838c652e6bd22a88a360f1955bb7f957b228c5fcefa72f260ff4bc5"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -5309,7 +5326,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "73edda78d1583db33aaff774bae19c1f2e2c0801821c68a1b078aef16eb4e3a4"
+                "sha256": "d413ca5ab1b5406d6185adc3869555c19d6405997f9ae4b2640fa8b7c0acbbe5"
             }
         }
     },
@@ -5429,7 +5446,7 @@
                 "draft": false,
                 "sha256": "fc41507dcc50e6bed4cbe0bb7472d52c7c0fa5f45c2b5047cfa562300417bf5f"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -5444,7 +5461,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "ba097e723086af101bafcceef70888103fba7ba95e04b2e50a0f82c76c81da63"
+                "sha256": "e55b197308d78e3071b512abdd10c7cfc6e2add5f2fc47f4a86924d88341cef0"
             }
         }
     },
@@ -5564,7 +5581,7 @@
                 "draft": false,
                 "sha256": "688b2165fc5a93d891df5ba5ad22db7f732bf49a0141e8ec05ee81cf32e8a02c"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -5579,7 +5596,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "0d34a17a4c48b0c6b6fee0fac9db2546a9ad062de28c214d9da8ffdb9ad7e0fa"
+                "sha256": "d15968de38ed769e394408588fa133b2ea8a6a9a5ac05c5dda6fffe4f3aafac6"
             }
         }
     },
@@ -5699,7 +5716,7 @@
                 "draft": false,
                 "sha256": "74a64071e264b6bc6ca74915bed0d2982ee1686a495a8e4cebf9e3d6a627c8db"
             },
-            "v1.0": {
+            "v1.6.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [
@@ -5714,7 +5731,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "e8ee052e4a376fc121981700511c448ef3b46f9894f15896e41c764f0dc8874b"
+                "sha256": "b279025578d5318d910da22689100f410e524ff325f978a203edd725ba4bf413"
             }
         }
     },
@@ -5833,6 +5850,23 @@
                 ],
                 "draft": false,
                 "sha256": "bb6b336255e75ff4d0071187fd6c0bbeaee61eb7137aee0b733a9eabecff97ea"
+            },
+            "v1.6.0": {
+                "date": "03-09-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "240689058ec73c728f0ff71d992c4673767cc02dc4b451b85680114686f25dfc"
             }
         }
     },
@@ -5952,7 +5986,7 @@
             "interrupt-controller"
         ],
         "release": {
-            "v1.0": {
+            "v1.0.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [],
@@ -5965,7 +5999,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "0224d99cc3739f1677cfcf162ceb9be5ba740108c7b2d5cde5ad8854bc9d60d2"
+                "sha256": "cc8dc7daf5cf9fd8e060cdb2e3433cb7f8575bba3b91a071471d0afde149f103"
             }
         }
     },
@@ -5983,7 +6017,7 @@
             "timer"
         ],
         "release": {
-            "v1.0": {
+            "v1.0.0": {
                 "date": "03-09-2026",
                 "maturity": "Verified",
                 "bus": [],
@@ -5996,7 +6030,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "040242422b2a32de483aaa5df69b85f736aacd784133c2c3d0498c707181a066"
+                "sha256": "67bc78dcd68a7175c8bb3b1c77ba163310416e8675c8b335a6b5f1c4beca8e1d"
             }
         }
     }
