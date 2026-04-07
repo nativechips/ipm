@@ -5919,6 +5919,24 @@
                 ],
                 "draft": false,
                 "sha256": "7f8c20862811debd52167c3673f5ce8b43230d793c2199135b9d86b38724bdb8"
+            },
+            "v1.2.0": {
+                "date": "04-07-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "AHBL",
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "0",
+                "clock_freq_mhz": "0",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "30877c02e069b2a66670d91c4746df9948c6a5c126a2c1b91a29f23573a32e99"
             }
         }
     },
