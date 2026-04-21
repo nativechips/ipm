@@ -3972,7 +3972,7 @@
                 "sha256": "e8ed6f9637de3b14f041f35e60b6e828ed048ea4632964eedd073075453dd381"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -3986,7 +3986,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "8f05c98465eb874c5213026e305fd914d77bcaa496aa2b4ff033a17bea42119c"
+                "sha256": "56fcc49b84f924d2b21af70f6efd1713d564f0c3956ccc81a70bccadf4366742"
             }
         }
     },
@@ -4124,7 +4124,7 @@
                 "sha256": "4bb242df6c32d58df1e32c9db3a66c1dc8b8beb8acf5ebf2d7e73a308d34f419"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -4138,7 +4138,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "84e470c86421e3a30b5cd28bbfd6fc2e0a6b229d3baeb9b1cb3ced9fc1509767"
+                "sha256": "28c7eb61731bfd6a34d393c6377fe384a60fcb83300ddbf09146d68f2815b1c8"
             }
         }
     },
@@ -4283,7 +4283,7 @@
                 "sha256": "79677de522490dca1d728d2ed6e51f1e8617c1b9ef6e18812e3a628496618c48"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "AHBL",
@@ -4298,7 +4298,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "2972b28293b8082c76acd7fb6de586f662a94dabffd04b1124442357b276e0c9"
+                "sha256": "6c12b41afc12766ed99e3a0cc67533cca8edcdde1a606c5dcd0fddb8237c7965"
             }
         }
     },
@@ -4436,7 +4436,7 @@
                 "sha256": "472fc15f3d823c7742dd0348ef4913c96bdd55467a82c9e6cd84cf48447e6d5e"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -4450,7 +4450,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "045dd9a3374b5b94044703906780e94e9681548fc33df00760ff6a60febc56fc"
+                "sha256": "3d90353c77d68cd32caf241afeb03b6bb21bbe89efd1a130e3147d980a0445bb"
             }
         }
     },
@@ -4588,7 +4588,7 @@
                 "sha256": "fd497bf2849d08ba68f112e61912042612104e8ead611ec31d68affd9c9b9e7a"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -4602,7 +4602,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "496851548797212c588c84cfb2dcaf3ee4b716e26f48169cfa7a6ec230bdf06e"
+                "sha256": "1524e36af45fe1ae2d23a9462c9b4cec08692b54860cc206f2581bcb3be615d9"
             }
         }
     },
@@ -4740,7 +4740,7 @@
                 "sha256": "66e0bc1c3dd69181e6e7d644c96a3a4ab183ae643383e77a9e031af100f104ab"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -4754,7 +4754,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "c99cbd3a8d7067fbe8c6faf8978fa8e205118c07b5278c9acd7a93f1e45f417e"
+                "sha256": "b918037d84c3577e49b81a33a047c1fac1586a017b0eb1e14676ab7ff6a51fbc"
             }
         }
     },
@@ -4892,7 +4892,7 @@
                 "sha256": "d31c2bae66f2e6bf28532fca1391b51c98cc8a4e2d0b38189749d7c964a65067"
             },
             "v2.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -4906,7 +4906,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "d40fab3763d087387cbb31ffb6d68b84fd3e51c3edf7f4b7870bfc7aefc05cb1"
+                "sha256": "d8a04998576c7355f46bbd27cb1bac1adb9a5bd8d6e56745052ca7cd92281861"
             }
         }
     },
@@ -5044,7 +5044,7 @@
                 "sha256": "7bf305b83d06be82b9b35172594e06e38438fc4568ff1d63630fe2b1fbe91e54"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -5058,7 +5058,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "7a3b1e60e035db559793ef7739a808a543bbefcf869252fcb238fb17ce773bd2"
+                "sha256": "3decc72b4c7ef46a27c6107e52217c18e265bc847c5d85e6f54bbd1b7fbb13c2"
             }
         }
     },
@@ -5196,7 +5196,7 @@
                 "sha256": "d9479f8d867efd878ca230d4a61963bc652780cb88b487c3802ca7703c153488"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -5210,7 +5210,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "3108e5f97a22aafb693703ff0147087e93e15b67484318c3ea6a64ffab8df8ed"
+                "sha256": "21d3d0dd791656de7a71dea6983c8315e1eeff1733d71ae9143fb03e2b942057"
             }
         }
     },
@@ -5348,7 +5348,7 @@
                 "sha256": "4b2523efd881ba900e7d21a8256900b27c99a8e28f6b5db856f557b9081b8bef"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -5362,7 +5362,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "eea07e6226e86b2ca073d8f4f7d33450bd97ecda0fd11acc0ef4a4635ab480a3"
+                "sha256": "2440d7558703ebc0e93348baebeb2ccecfd862b18c297f8e89682cec523cd50f"
             }
         }
     },
@@ -5500,7 +5500,7 @@
                 "sha256": "d887965a83b0bd8084e6eb3fb874034b9840e3faae93e8132faa94a7466f0c70"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -5514,7 +5514,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "fe04fd5cc71f35fd2880282cdece5b612d3f41c3a7da80d7c90bd5c2e7da3319"
+                "sha256": "1538576ef4917e37dfae5cb920ed35b1547db6f86e70accb9b3536e524e61dd3"
             }
         }
     },
@@ -5667,6 +5667,23 @@
                 ],
                 "draft": false,
                 "sha256": "24fe9ab6d7d70891ec78895d041c112b2108af700fa9804a1c6db5e5cbd287b7"
+            },
+            "v1.7.1": {
+                "date": "04-20-2026",
+                "maturity": "Verified",
+                "bus": [
+                    "APB"
+                ],
+                "type": "soft",
+                "width": "0",
+                "height": "0",
+                "cell_count": "2651",
+                "clock_freq_mhz": "100",
+                "supply_voltage": [
+                    "n/a"
+                ],
+                "draft": false,
+                "sha256": "22d8b6953c278856e69f2ced7e128a1f98661e96a6b5e51ad329dbbd4d676ee2"
             }
         }
     },
@@ -5804,7 +5821,7 @@
                 "sha256": "5707471a097361a0ad73f6acc325f865094d74ddd806ccdb07c53c04ce322d8e"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -5818,7 +5835,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "f1310b0dfa19ed2d0395a2766af7718c532ab44dd40169e0815bec67f50bb336"
+                "sha256": "dbed2601d7c3ab6a8c20b7d5c4cc711fc1d0be8669b37d74c349713a8aca5b90"
             }
         }
     },
@@ -5956,7 +5973,7 @@
                 "sha256": "3fef6690e7aeabfaa8f2b4da01f03a7f7ad1c82e81d4ff953446514aeffb9445"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "AHBL"
@@ -5970,7 +5987,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "0e825395edff45436fe207189e449ea755476a44deacd4b096ee0328bc66f29d"
+                "sha256": "823df16b9bc513c7376e12aad577242ddecd96fb7a6c8c1d19974e3e174e9bf4"
             }
         }
     },
@@ -6108,7 +6125,7 @@
                 "sha256": "aad3be49714ac5b95542b77b78b771f5ac07cf55d5ed6a4c9a0eea148fe28c61"
             },
             "v1.7.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [
                     "APB"
@@ -6122,7 +6139,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "004dcc78c46bc24936b0aa6740e52ec7b2f2319da6577ac8ef26873c3b1712a3"
+                "sha256": "b5e2cf45c091ebd85452dbce0e1aa96605619e38714c23d0f5db9741f04b11f7"
             }
         }
     },
@@ -6293,7 +6310,7 @@
                 "sha256": "fca5a4aac5d63981b954f81aafa40e0ab5a6cbc8550d1c579be446d82806aac9"
             },
             "v1.1.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [],
                 "type": "soft",
@@ -6305,7 +6322,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "6c85107bd80acfb53cfd85d72d48cbdf4f7fc3f145740d3cb1524bd2b1d73bfd"
+                "sha256": "cea4841906b79919ca91f6b453bc8b08654e12876fc729328813d59f4fe9b2fd"
             }
         }
     },
@@ -6339,7 +6356,7 @@
                 "sha256": "336929a4185658b8a86fa5be395807c3a34351e5ff0bdec65135e6a447b1640a"
             },
             "v1.1.0": {
-                "date": "04-07-2026",
+                "date": "04-20-2026",
                 "maturity": "Verified",
                 "bus": [],
                 "type": "soft",
@@ -6351,7 +6368,7 @@
                     "n/a"
                 ],
                 "draft": false,
-                "sha256": "ee070f57f7c95ec319d511307ad7e40914c463976a1b212c83235002ec36ae2f"
+                "sha256": "1aee641aba669bb1def7b17890784085bfb136ed7a129f04323a5ac1b7384b57"
             }
         }
     },
